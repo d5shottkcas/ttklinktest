@@ -1,0 +1,618 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+/*〓基本スタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime{
+//	background:#a2e2ff;
+//	background:linear-gradient(to bottom,#fff,#a2e2ff,#a2e2ff,#a2e2ff,#a2e2ff);
+	background:#fff9b5;
+	background:linear-gradient(to bottom,#fff,#fff9b5,#fff9b5,#fff9b5,#fff9b5);
+	background-attachment:fixed;
+}
+body.anime div.base p.copyright{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px 0;
+	margin:0;
+}
+/*〓ヘッダー情報〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.header{
+//	background:#fdd100;
+	background:rgb(0,145,219);
+}
+body.anime div.base div.header h1.logo{
+	text-indent:-9999px;
+	background:url(logo.png) no-repeat center center;
+	background-size:auto 150px ;
+	width:500px;
+	height:200px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+body.anime div.base div.header div{
+	color:#fff;
+	text-shadow:1px 1px #000;
+	text-align:center;
+	margin:0;
+	padding:0 0 5px 0;
+	display:inline-block;
+	width:500px;
+}
+body.anime div.base div.header div p{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	line-height:130%;
+	margin:8px;
+}
+body.anime div.base div.header div p span{
+	font-size:15px;
+	line-height:130%;
+
+}
+body.anime div.base div.header div ul{
+	padding:0;
+	list-style-type:none;
+	text-shadow:none;
+}
+body.anime div.base div.header div ul li{
+//	background:#fff;
+	background:#fff9b5;
+	display:inline-block;
+	margin:3px;
+	width:155px;
+}
+body.anime div.base div.header div ul li.animeworld{
+	font-size:0;
+	text-indent:-9999px;
+	background:#fff9b5 url(http://www9.nhk.or.jp/anime/common/images/logo.png) no-repeat center center;
+	background-size:130px ;
+}
+body.anime div.base div.header div ul li a{
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	padding:5px;
+	display:block;
+}
+body.anime div.base div.header div ul li:hover{
+	opacity:0.7;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.mainbox{
+	background:#fff;
+	margin:10px 0;
+	padding:10px;
+	border-top:6px solid #ea4800;
+}
+p.info{	font-size:20px;
+	font-weight:bold;
+	line-height:150%;
+	margin:0 10px;
+}
+p.info span{
+	line-height:130%;
+	margin:0;
+	padding:0 10px;
+	background:rgb(255,102,0);
+	color:white;
+}
+/*〓あらすじ〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.arasuji img{	
+//	background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/arasuji.jpg) no-repeat;
+	background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/arasuji3.jpg) no-repeat;
+	background-size:100% auto;
+	width:330px;
+	height:190px;
+}
+body.anime div.base div.arasuji div{
+	font-size:15px;
+	width:600px;
+	margin:0 20px;
+	vertical-align:top;
+	display:inline-block;
+}
+body.anime div.base div.arasuji div h1{
+	font-size:25px;
+	line-height:130%;
+	color:#ea4800;
+	margin:0
+}
+/*〓次回予告〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+div.nextdata{
+	//
+}
+div.nextdata h1{
+	font-size:25px;
+	line-height:100%;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+div.nextdata div.jikai{
+	width:620px;
+	display:inline-block;
+}
+div.nextdata div.jikai h2{
+	font-size:20px;
+	line-height:100%;
+	margin:8px 0;
+}
+div.nextdata div.jikai h2 span{
+	font-size:15px;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai p{
+	font-size:14px;
+	text-align:justify;
+	line-height:170%;
+	margin:0 5px;
+}
+div.nextdata ul.kongo{
+	list-style-type:none;
+	padding:0;
+	margin:0 0 0 20px;
+	width:340px;
+	display:inline-block;
+	vertical-align:top;
+	max-height:200px;
+	overflow-x:auto;
+}
+div.nextdata ul.kongo li{
+	font-size:15px;
+	font-weight:bold;
+	border-bottom:1px dotted #999;
+}
+div.nextdata ul.kongo li span{
+	font-size:13px;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai h1,
+div.nextdata ul.kongo h1{
+	font-size:17px;
+	line-height:100%;
+	text-align:left;
+	color:#ea4800;
+	border-bottom:1px solid #ea4800;
+	margin:0;
+	padding:3px 0;
+}
+/*〓キャスト・スタッフ〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.cast_staff h1{
+	font-size:25px;
+	color:#ea4800;
+	margin:0;
+}
+body.anime div.base div.cast_staff ul{
+	padding:0;
+	margin:0 5px;
+	list-style-type:none;
+	width:310px;
+	display:inline-block;
+	vertical-align:top;
+}
+body.anime div.base div.cast_staff ul li{
+	font-size:15px;
+	line-height:150%;
+	margin:5px 0;
+	border-bottom:1px dotted #999;
+}
+body.anime div.base div.cast_staff ul li span{
+	font-weight:bold;
+}
+/*〓キャラクター紹介〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.character ul{
+	padding:0;
+	text-align:center;
+}
+body.anime div.base div.character h1{
+	font-size:25px;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+body.anime div.base div.character ul li{
+	margin:10px 10px;
+	width:220px;
+	display:inline-block;
+	vertical-align:top;
+}
+body.anime div.base div.character ul li img{
+	width:200px;
+	height:200px;
+}
+/*--キャラクターイメージ----------------------*/
+body.anime div.base div.character ul li img.chara01{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_01.png) no-repeat;}
+body.anime div.base div.character ul li img.chara02{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_02.png) no-repeat;}
+body.anime div.base div.character ul li img.chara03{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_03.png) no-repeat;}
+body.anime div.base div.character ul li img.chara04{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_04.png) no-repeat;}
+body.anime div.base div.character ul li img.chara05{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_05.png) no-repeat;}
+body.anime div.base div.character ul li img.chara06{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_06.png) no-repeat;}
+body.anime div.base div.character ul li img.chara07{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_07.png) no-repeat;}
+body.anime div.base div.character ul li img.chara08{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_08.png) no-repeat;}
+body.anime div.base div.character ul li img.chara09{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_09.png) no-repeat;}
+body.anime div.base div.character ul li img.chara10{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_10.png) no-repeat;}
+body.anime div.base div.character ul li img.chara11{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_11.png) no-repeat;}
+body.anime div.base div.character ul li img.chara12{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_12.png) no-repeat;}
+body.anime div.base div.character ul li img.chara13{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_13.png) no-repeat;}
+body.anime div.base div.character ul li img.chara14{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_14.png) no-repeat;}
+body.anime div.base div.character ul li img.chara15{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_15.png) no-repeat;}
+body.anime div.base div.character ul li img.chara16{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_16.png) no-repeat;}
+/*--------------------------------------------*/
+body.anime div.base div.character ul li h2{
+	font-size:18px;
+	text-align:center;
+	line-height:130%;
+	margin:10px 0 5px 0;
+	padding:0;
+	border-bottom:1px solid #ea4800;
+}
+body.anime div.base div.character ul li h2 span{font-size:15px;}
+body.anime div.base div.character ul li p.voice{
+	font-size:15px;
+	line-height:130%;
+	margin:0;
+}
+body.anime div.base div.character ul li p.txt{
+	font-size:14px;
+	text-align:left;
+	margin:0;
+}
+/*〓これまでの放送〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.episode ul.list{
+	padding:10px 0;
+	border-bottom:2px solid #ea4800;
+}
+body.anime div.base div.episode ul.list li{
+	width:316px;
+	border-bottom:1px solid #ea4800;
+	display:inline-block;
+	margin:0 5px;
+}
+body.anime div.base div.episode ul.list li a{
+	font-size:15px;
+	font-weight:bold;
+	padding:2px 4px;
+	color:#ea4800;
+	text-decoration:none;
+	display:block;
+}
+body.anime div.base div.episode ul.list li a:hover{
+	color:#fff;
+	background:#ea4800;
+	text-shadow:1px 1px 1px #000;
+}
+body.anime div.base div.episode ul.data{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+body.anime div.base div.episode ul.data li{
+	margin:0 30px;
+	padding:50px 0 20px 0; 
+}
+body.anime div.base div.episode ul.data li + li{
+	border-top:1px dashed #ea4800;
+
+}
+body.anime div.base div.episode ul.data li h1{
+	font-size:28px;
+	line-height:100%;
+	margin:0 0 10px 0;
+}
+body.anime div.base div.episode ul.data li h1 span{
+	font-size:15px;
+	line-height:100%;
+	padding:10px 0 0 0;
+	float:right;
+}
+body.anime div.base div.episode ul.data li p{
+	font-size:17px;
+	line-height:180%;
+	margin:5px 50px;
+	text-align:justify;
+	display:inline-block;
+	vertical-align:top;
+}
+
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width:768px){
+/*〓基本スタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime{
+//	background:#a2e2ff;
+//	background:linear-gradient(to bottom,#fff,#a2e2ff,#a2e2ff,#a2e2ff,#a2e2ff);
+
+	background:#fff9b5;
+	background:linear-gradient(to bottom,#fff,#fff9b5,#fff9b5,#fff9b5,#fff9b5);
+}
+body.anime div.base p.copyright{
+	font-size:3.8vw;
+	font-weight:bold;
+	color:#000;
+	text-align:center;
+	margin:2vw;
+}
+/*〓ヘッダー情報〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.header{
+	padding:2vw 0;
+//	background:#fdd100;
+	background:rgb(0,145,219);
+}
+body.anime div.base div.header h1.logo{
+	text-indent:-9999px;
+	background:url(logo.png) no-repeat center center;
+	background-size:cover;
+	width:95vw;
+	height:30vw;
+	margin:2vw auto;
+}
+body.anime div.base div.header div p{
+	font-size:4.5vw;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	text-shadow:0.3vw 0.3vw #000;
+	line-height:110%;
+	margin:1vw;
+}
+body.anime div.base div.header div p span{
+	font-size:3.2vw;
+	line-height:120%;
+}
+body.anime div.base div.header div ul{
+	text-align:center;
+	padding:0;
+	margin:0 auto;
+	list-style-type:none;
+	text-shadow:none;
+	width:95vw;
+}
+body.anime div.base div.header div ul li{
+	background:#fff9b5;
+	display:inline-block;
+	margin:0.555vw;
+	width:45.55555vw;
+}
+body.anime div.base div.header div ul li.animeworld{
+	font-size:0;
+	text-indent:-9999px;
+	background:#fff9b5 url(http://www9.nhk.or.jp/anime/common/images/logo.png) no-repeat center center;
+	background-size:40vw auto;
+}
+body.anime div.base div.header div ul li a{ 
+	font-size:3.8vw;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	padding:2vw 0;
+	display:block;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.mainbox{
+	font-size:0;
+	background:#fff;
+	border-top:5px solid #ea4800;
+	margin:2.55vw 0;
+	padding:2.55vw;
+}
+p.info{	font-size:3vw;
+	font-weight:bold;
+	line-height:150%;
+	margin:0 10px;
+}
+p.info span{
+	line-height:130%;
+	margin:0;
+	padding:0 10px;
+	background:rgb(255,102,0);
+	color:white;
+}
+/*〓あらすじ〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.arasuji{
+	font-size:3.55vw;
+	margin:5vw auto;
+	text-align:center;
+}
+body.anime div.base div.arasuji img{	
+//	background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/arasuji.jpg)  no-repeat center center;
+	background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/arasuji3.jpg)  no-repeat center center;
+	background-size:auto 100%;
+	width:80vw;
+	height:43vw;
+	margin:2vw auto;
+}
+body.anime div.base div.arasuji h1{
+	font-size:8vw;
+	line-height:130%;
+	color:#ea4800;
+	margin:0
+}
+/*〓次回予告〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+div.nextdata h1{
+	font-size:7vw;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+div.nextdata div.jikai h1,
+div.nextdata ul.kongo h1{
+	font-size:4vw;
+	line-height:100%;
+	text-align:left;
+	color:#ea4800;
+	border-bottom:1px solid #ea4800;
+	margin:0;
+	padding:0.5vw 0;
+}
+div.nextdata div.jikai h2{
+	font-size:4.5vw;
+	line-height:100%;
+	margin:2vw 0 1vw 0;
+}
+div.nextdata div.jikai h2 span{
+	font-size:3vw;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai p{
+	font-size:3.222vw;
+	line-height:120%;
+	margin:0;
+}
+div.nextdata ul.kongo{
+	list-style-type:none;
+	margin:2.5vw 0;
+	padding:0;
+}
+div.nextdata ul.kongo li{
+	font-size:3.5vw;
+	line-height:120%;
+	font-weight:bold;
+	padding:1vw 0;
+	border-bottom:1px dotted #999;
+}
+div.nextdata ul.kongo li span{
+	font-size:2.888vw;
+	font-weight:normal;
+	display:block;
+}
+/*〓キャスト・スタッフ〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.cast_staff h1{
+	text-align:center;
+	font-size:7vw;
+	color:#ea4800;
+	margin:0;
+}
+body.anime div.base div.cast_staff h1.not{display:none;}
+body.anime div.base div.cast_staff ul{
+	list-style-type:none;
+	padding:0;
+	margin :0;
+}
+body.anime div.base div.cast_staff ul li{
+	font-size:3.5vw;
+	line-height:150%;
+	margin:0.5vw 0;
+	padding:0.5vw;
+	border-bottom:1px dotted #999;
+}
+body.anime div.base div.cast_staff ul li span{
+	font-weight:bold;
+}
+/*〓キャラクター紹介〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.character ul{
+	padding:0;
+	margin:0;
+}
+body.anime div.base div.character h1{
+	font-size:7vw;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+body.anime div.base div.character ul li{
+	text-align:center;
+	margin:0 0.5vw;
+	width:44.4vw;
+	display:inline-block;
+	vertical-align:top;
+}
+body.anime div.base div.character ul li img{
+	width:35vw;
+	height:35vw;
+}
+/*--キャラクターイメージ----------------------*/
+body.anime div.base div.character ul li img.chara01{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_01.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara02{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_02.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara03{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_03.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara04{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_04.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara05{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_05.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara06{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_06.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara07{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_07.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara08{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_08.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara09{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_09.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara10{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_10.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara11{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_11.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara12{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_12.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara13{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_13.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara14{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_14.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara15{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_15.png) no-repeat;background-size:cover;}
+body.anime div.base div.character ul li img.chara16{background:url(http://www6.nhk.or.jp/anime/program/common/images/gomachan/chara_16.png) no-repeat;background-size:cover;}
+/*--------------------------------------------*/
+body.anime div.base div.character ul li h2{
+	font-size:4.4vw;
+	text-align:center;
+	line-height:130%;
+	margin:1vw 0;
+	padding:0;
+	border-bottom:1px solid #ea4800;
+}
+body.anime div.base div.character ul li h2 span{font-size:3vw;}
+body.anime div.base div.character ul li p.voice{
+	font-size:3.3vw;
+	text-align:center;
+	line-height:130%;
+	margin:0;
+}
+body.anime div.base div.character ul li p.txt{
+	font-size:3.8vw;
+	text-align:left;
+	line-height:110%;
+	margin:0;
+}
+/*〓これまでの放送〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.anime div.base div.episode ul.list{
+	margin:0;
+	padding:1vw 0;
+	border-bottom:2px solid #ea4800;
+}
+body.anime div.base div.episode ul.data{
+	margin:0;
+	padding:1vw 0;
+}
+body.anime div.base div.episode ul.list li{
+	border-bottom:1px solid #ea4800;
+	margin:0.5vw 0.5vw;
+}
+body.anime div.base div.episode ul.list li a{
+	font-size:3.9vw;
+	color:#ea4800;
+	font-weight:bold;
+	text-decoration:none;
+	padding:1.6vw 0.2vw;
+	display:block;
+}
+body.anime div.base div.episode ul.data li{
+	padding:5vw 0;
+}
+body.anime div.base div.episode ul.data li + li{
+	border-top:0.2vw dashed #ea4800;
+}
+body.anime div.base div.episode ul.data li h1{
+	font-size:4.9999vw;
+	line-height:130%;
+	margin:5px 0;
+}
+body.anime div.base div.episode ul.data li h1 span{
+	font-size:2.2222222222vw;
+	text-align:right;
+	line-height:130%;
+	padding:0 0 0 5vw;
+	display:block;
+}
+body.anime div.base div.episode ul.data li p{
+	font-size:4.3vw;
+	line-height:130%;
+	margin:5px 3vw;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+}

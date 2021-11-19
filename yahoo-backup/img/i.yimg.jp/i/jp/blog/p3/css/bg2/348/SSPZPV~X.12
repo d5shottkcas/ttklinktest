@@ -1,0 +1,34 @@
+@charset "euc-jp";
+
+
+
+
+body{
+background-color:#e9df9a;
+background-image:  url("../../../images/folder/bg/348/top_bg.gif");
+background-repeat:repeat-x; }
+
+#globalHeader,
+#globalHeader p a{
+background-color:#e2c04e;
+color:#fff;
+}
+
+#bottomAdBannerArea{
+color:#7a611e;
+}
+
+#bottomAdBannerArea a{
+color:#010660;
+}
+
+
+#footerArea{
+color:#7a611e;
+}
+
+#footerArea a{
+color:#010660;
+}
+
+

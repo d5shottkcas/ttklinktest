@@ -1,0 +1,15 @@
+
+RewriteEngine on 
+
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://www.tenterelink.net/$1 [R=301,L] 
+
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^tenterelink.net$
+RewriteRule ^(.*)$ https://www.tenterelink.net/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.tenterelink.net/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ http://www.tenterelink.net/$1 [R=301,L]

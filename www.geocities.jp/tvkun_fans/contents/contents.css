@@ -1,0 +1,65 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+div.contents h1{
+	background:url(../images/title.png) no-repeat top left,url(../images/title.png) no-repeat bottom right;
+	background-size:auto 200%;
+	font-size:35px;
+	line-height:110%;
+	text-align:center;
+	color:#000;
+	margin:10px auto;
+	padding:20px 0 ;
+	width:600px;
+}
+div.contents{
+	background:rgb(242,241,237);
+	border:35px solid rgb(190,186,166);
+	border-top:none;border-bottom:none;
+	margin:0 auto;
+	width:700px;
+	padding:50px 0;
+}
+	
+div.contents p{
+	font-size:18px;
+	line-height:130%;
+	font-weight:bold;
+	padding:35px;
+}
+div.contents p sup,div.contents p span{font-size:15px;}
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width:768px){
+div.contents h1{
+	background:url(../images/title.png) no-repeat top left,url(../images/title.png) no-repeat bottom right;
+	background-size:auto 200%;
+	font-size:8vw;
+	line-height:110%;
+	text-align:center;
+	color:#000;
+	margin:2.5vw auto;
+	padding:2.5vw 0 ;
+	width:90%;
+}
+div.contents{
+	background:rgb(242,241,237);
+	border:8vw solid rgb(190,186,166);
+	border-top:none;border-bottom:none;
+	margin:0 auto;
+	width:80%;
+	padding:5vw 0;
+}
+	
+div.contents p{
+	font-size:4vw;
+	line-height:130%;
+	font-weight:bold;
+	padding:4vw;
+}
+div.contents p sup{font-size:2.5vw;
+	line-height:130%;}
+}

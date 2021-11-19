@@ -1,0 +1,379 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+h1.logo{
+	margin:0 auto;
+	background:url(../img/logo.png) no-repeat;
+	width:580px;
+	height:170px;
+}
+ul.theme{
+	margin:10px auto;
+	padding:0;
+	width:780px;
+}
+ul.theme h1{
+	font-size:25px;
+	margin:0;
+	padding:3px 10px;
+	background:rgb(153,217,234);
+	border-radius:10px;
+}
+ul.theme p{
+	font-size:18px;
+	line-height:130%;
+	margin:2px auto 8px;
+	padding:5px 10px;
+	background:rgba(255,255,255,0.5);
+	border-radius:5px;
+	min-height:90px;
+}
+ul.theme div.avt{
+	margin:0 5px;
+	background:url(../img/usericons.png) no-repeat -100px -100px;
+	width:100px;
+	height:100px;
+	float:left;
+}
+ul.theme li a{
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	color:#000;
+	background:rgba(255,255,255,0.9);
+	margin:3px 80px;
+	padding:3px;
+	border:1px solid #000;
+	border-radius:10px;
+	display:block;
+	transition-duration:0.2s;
+}
+ul.theme li a:hover{
+	color:#ff0000;
+	background:#fff;
+}
+ul.mmbox{
+	margin:10px auto;
+	padding:5px 0;
+	background:rgb(255,250,160);
+	border-radius:10px;
+	width:780px;
+}
+ul.mmbox li.bbsdata{
+	margin:10px;
+//	padding:10px;
+}
+ul.mmbox li.bbsdata div.record{
+	background:rgb(255,230,140);
+	padding:3px 8px;
+	margin:0;
+	border-radius:10px;
+	border:2px solid rgb(255,210,60);
+	display:inline-block;
+	vertical-align:top;
+	width:620px;
+}
+ul.mmbox li.bbsdata div.record p.name{
+	font-size:18px;
+	line-height:150%;
+	margin:0;
+}
+ul.mmbox li.bbsdata div.record h1{
+	font-size:25px;
+	line-height:100%;
+	margin:0;
+	border-bottom:1px dashed #000;
+}
+ul.mmbox li.bbsdata div.record p.mess{
+	font-size:18px;
+	line-height:130%;
+	margin:5px;
+}
+ul.mmbox li.bbsdata div.record p.userdt{
+	font-size:15px;
+	line-height:130%;
+	border-top:1px dashed #000;
+	margin:0;
+	text-align:right;
+}
+ul.mmbox li.owner p{
+	font-size:15px;
+	background:rgb(255,255,204);
+	border:2px solid rgb(255,230,140);
+	border-radius:10px;
+	margin:0 0 10px 30px;
+	padding:8px;
+	display:inline-block;
+	width:600px;
+	min-height:96px;
+}
+ul.mmbox li.bbsdata div.avt,
+ul.mmbox li.owner div.avt{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	vertical-align:top;
+	background:url(../img/usericons.png) no-repeat;
+}
+ul.mmbox li.bbsdata div.avt_01{background-position:-000px -000px;}
+ul.mmbox li.bbsdata div.avt_02{background-position:-100px -000px;}
+ul.mmbox li.bbsdata div.avt_03{background-position:-200px -000px;}
+ul.mmbox li.owner div.avt_oct {background-position:-000px -100px;}
+/*
+ul.mmbox li.bbsdata div.avt_01{background:url(../img/avt01.png) no-repeat center center /100%;}
+ul.mmbox li.bbsdata div.avt_02{background:url(../img/avt02.png) no-repeat center center /100%;}
+ul.mmbox li.bbsdata div.avt_03{background:url(../img/avt03.png) no-repeat center center /100%;}
+ul.mmbox li.owner div.avt_oct {background:url(../img/avt00.png) no-repeat center center /100%;}
+*/
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width: 768px){
+ul.theme{
+	margin:2vw auto;
+	padding:0;
+}
+ul.theme h1{
+	font-size:7.77vw;
+	margin:1vw 1vw 1.8vw 1vw;
+	padding:0.5vw 3vw;
+	background:rgb(153,217,234);
+	border-radius:1.8vw;
+}
+ul.theme p{
+	font-size:4.555vw;
+	line-height:110%;
+	margin:1vw 1vw 1.8vw 1vw;
+	padding:2vw;
+	background:rgba(255,255,255,0.5);
+	border-radius:1vw;
+}
+ul.theme div.avt{
+	margin:0 5px;
+	background:url(../img/usericons.png) no-repeat 25% 100%;
+	background-size:500% 200%;
+	width:23vw;
+	height:23vw;
+	float:left;
+}
+ul.theme li a{
+	font-size:5vw;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	color:#000;
+	background:rgba(255,255,255,0.9);
+	margin:0vw 8vw;
+	padding:1vw;
+	border:0.2vw solid #000;
+	border-radius:5vw;
+	display:block;
+}
+ul.mmbox{
+	margin:1vw 0 5vw 0;
+	padding:0.5vw 0.1vw;
+	background:rgb(255,250,160);
+	border-radius:2vw;
+}
+ul.mmbox li.bbsdata{
+	background:rgb(255,230,140);
+	border-radius:2vw;
+	margin:2.5vw;
+	padding:2vw 0;
+}
+ul.mmbox li.bbsdata div.record{
+	margin:0;
+	border-radius:2vw;
+}
+ul.mmbox li.bbsdata div.record p.name{
+	font-size:4.33vw;
+	line-height:120%;
+	margin:0;
+}
+ul.mmbox li.bbsdata div.record h1{
+	font-size:6.55vw;
+	line-height:100%;
+	margin:2vw 0 0 0;
+}
+ul.mmbox li.bbsdata div.record p.mess{
+	font-size:5vw;
+	line-height:130%;
+	margin:2vw;
+	border-top   :0.2vw dashed #000;
+	border-bottom:0.2vw dashed #000;
+}
+ul.mmbox li.bbsdata div.record p.userdt{
+	font-size:3.5vw;
+	line-height:130%;
+	margin:0 2vw 0 0;
+	text-align:right;
+}
+ul.mmbox li.owner p{
+	font-size:4.5vw;
+	line-height:130%;
+	background:rgb(255,255,204);
+	border:0.5vw solid rgb(255,230,140);
+	border-radius:2vw;
+	margin:0 0 3vw 2.5vw;
+	padding:1.5vw;
+	display:inline-block;
+	width:71vw;
+}
+ul.mmbox li.bbsdata div.avt,
+ul.mmbox li.owner div.avt{
+	width:15vw;
+	height:15vw;
+	margin:0 1vw 0 1vw;
+	padding:0.5vw;
+	border:0.5vw solid #000;
+	border-radius:2vw;
+	float:left;
+	background:rgba(255,255,255,0.8) url(../img/usericons.png) no-repeat;
+	background-size:500% 200%;
+}
+ul.mmbox li.owner div.avt{
+	float:right;
+	margin:0 3vw 0 1vw;
+}
+ul.mmbox li.bbsdata div.avt_01{background-position:00% 00%;}
+ul.mmbox li.bbsdata div.avt_02{background-position:25% 00%;}
+ul.mmbox li.bbsdata div.avt_03{background-position:50% 00%;}
+ul.mmbox li.owner div.avt_oct {background-position:00% 100%;}
+}
+/*●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●*/
+/*●投稿フォーム●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●*/
+/*●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+div.base div.form{
+	text-align:center;
+	background:rgb(242,241,237);
+	border:30px solid rgb(190,186,166);
+	border-top:none;border-bottom:none;
+	margin:0 auto;
+	width:780px;
+	padding:25px 10px;
+}
+div.base div.form h1{
+	font-size:25px;
+	line-height:120%;
+	margin:10px 0;
+	padding:0;
+}
+div.base div.form p{
+	font-size:16px;
+	line-height:120%;
+	margin:10px 0;
+	padding:10px 0;
+}
+div.base div.form p a{
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+	background:rgb(255,204,0);
+	border-bottom:3px solid rgb(199,80,0);
+	border-radius:5px;
+	padding:10px 55px;
+}
+div.base div.form dl{
+	font-size:16px;
+	text-align:left;
+	margin:0 20px;
+}
+div.base div.form dl dt{
+	font-weight:bold;
+	margin-top:10px;
+	padding:8px;
+	background:url(http://www.geocities.jp/tvkun_fans/cts/img/arrow.jpg) no-repeat right center,rgb(255,204,0);
+	border-radius:8px 8px 0 0;
+	cursor:pointer;
+}
+div.base div.form dl dd{
+	margin:0;
+	padding:8px 8px 8px 18px;
+	background:#fff;
+	display:none;
+}
+div.base div.form dl dt span{color:red;}
+div.base div.form dl dd span{
+	font-size:20px;
+	line-height:120%;
+	font-weight:bold;
+	text-shadow:1.5px 1.5px #999;
+	margin-right:5px;
+}
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width: 768px){
+h1.logo{
+	margin:0 auto;
+	background:url(../img/logo.png) no-repeat center center /100%;
+	width:98vw;
+	height:30vw;
+}
+div.base div.form{
+	text-align:center;
+	background:rgb(242,241,237);
+	border:4vw solid rgb(190,186,166);
+	border-top:none;border-bottom:none;
+	margin:2vw;
+	padding:3vw 2vw;
+}
+div.base div.form h1{
+	font-size:5.55vw;
+	line-height:120%;
+	margin:2vw 0;
+	padding:0;
+}
+div.base div.form p{
+	font-size:3.999vw;
+	line-height:120%;
+	margin:1.5vw 0;
+	padding:1.5vw 0;
+}
+div.base div.form p a{
+	font-size:5vw;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+	background:rgb(255,204,0);
+	border-bottom:0.6vw solid rgb(199,80,0);
+	border-radius:0.8vw;
+	padding:1.5vw 8vw;
+}
+div.base div.form dl{
+	font-size:4.0vw;
+	line-height:120%;
+	text-align:left;
+	margin:0 1vw;
+}
+div.base div.form dl dt{
+	font-weight:bold;
+	margin-top:1.8vw;
+	padding:1.5vw 8vw 1.5vw 1vw;
+	background:url(http://www.geocities.jp/tvkun_fans/cts/img/arrow.jpg) no-repeat right center,rgb(255,204,0);
+	border-radius:1vw 1vw 0 0;
+}
+div.base div.form dl dd{
+	margin:0;
+	padding:1.5vw 1vw 1.5vw 1.7vw;
+	background:#fff;
+	display:none;
+}
+div.base div.form dl dt span{color:red;}
+div.base div.form dl dd span{
+	font-size:5.3vw;
+	line-height:120%;
+	font-weight:bold;
+	text-shadow:0.3vw 0.3vw #999;
+	margin-right:0.8vw;
+}
+}

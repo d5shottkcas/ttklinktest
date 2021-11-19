@@ -1,0 +1,504 @@
+/* Copyright (c) 2007, Yahoo! Inc. All rights reserved. Code licensed under the BSD License:http://developer.yahoo.net/yui/license.txt Copyright (C) 2009 Yahoo Japan Corporation. All Rights Reserved. Built on 2009-04-16 18:41:24 */
+#yahooIdentityUserCardBody dl,#yahooIdentityUserCardBody dt,#yahooIdentityUserCardBody dd,#yahooIdentityUserCardBody ul,#yahooIdentityUserCardBody ol,#yahooIdentityUserCardBody li,#yahooIdentityUserCardBody h1,#yahooIdentityUserCardBody h2,#yahooIdentityUserCardBody h3,#yahooIdentityUserCardBody h4,#yahooIdentityUserCardBody h5,#yahooIdentityUserCardBody h6,#yahooIdentityUserCardBody pre,#yahooIdentityUserCardBody form,#yahooIdentityUserCardBody input,#yahooIdentityUserCardBody p,#yahooIdentityUserCardBody blockquote,#yahooIdentityUserCardBody fieldset,#yahooIdentityUserCardBody div,.yahooIdentityPanelContainer dl,.yahooIdentityPanelContainer dt,.yahooIdentityPanelContainer dd,.yahooIdentityPanelContainer ul,.yahooIdentityPanelContainer ol,.yahooIdentityPanelContainer li,.yahooIdentityPanelContainer h1,.yahooIdentityPanelContainer h2,.yahooIdentityPanelContainer h3,.yahooIdentityPanelContainer h4,.yahooIdentityPanelContainer h5,.yahooIdentityPanelContainer h6,.yahooIdentityPanelContainer pre,.yahooIdentityPanelContainer form,.yahooIdentityPanelContainer input,.yahooIdentityPanelContainer p,.yahooIdentityPanelContainer blockquote,.yahooIdentityPanelContainer fieldset,.yahooIdentityPanelContainer div{margin:0;
+padding:0;
+}
+#yahooIdentityUserCardBody h1,#yahooIdentityUserCardBody h2,#yahooIdentityUserCardBody h3,#yahooIdentityUserCardBody h4,#yahooIdentityUserCardBody h5,#yahooIdentityUserCardBody h6,.yahooIdentityPanelContainer h1,.yahooIdentityPanelContainer h2,.yahooIdentityPanelContainer h3,.yahooIdentityPanelContainer h4,.yahooIdentityPanelContainer h5,.yahooIdentityPanelContainer h6{font-size:100%;
+font-weight:normal;
+}
+#yahooIdentityUserCardBody ul li,#yahooIdentityUserCardBody ol li,.yahooIdentityPanelContainer ul li,.yahooIdentityPanelContainer ol li{list-style:none;
+}
+#yahooIdentityUserCardBody table,.yahooIdentityPanelContainer table{margin:0;
+padding:0;
+border-collapse:collapse;
+border-spacing:0;
+font-size:100%;
+}
+#yahooIdentityUserCardBody caption,.yahooIdentityPanelContainer caption{text-align:left;
+}
+#yahooIdentityUserCardBody table,#yahooIdentityUserCardBody pre,#yahooIdentityUserCardBody code,#yahooIdentityUserCardBody select,#yahooIdentityUserCardBody input,#yahooIdentityUserCardBody textarea,#yahooIdentityUserCardBody kbd,#yahooIdentityUserCardBody var,#yahooIdentityUserCardBody ins,#yahooIdentityUserCardBody del,#yahooIdentityUserCardBody samp,.yahooIdentityPanelContainer table,.yahooIdentityPanelContainer pre,.yahooIdentityPanelContainer code,.yahooIdentityPanelContainer select,.yahooIdentityPanelContainer input,.yahooIdentityPanelContainer textarea,.yahooIdentityPanelContainer kbd,.yahooIdentityPanelContainer var,.yahooIdentityPanelContainer ins,.yahooIdentityPanelContainer del,.yahooIdentityPanelContainer samp{font-size:100%;
+}
+#yahooIdentityUserCardBody address,#yahooIdentityUserCardBody cite,#yahooIdentityUserCardBody dfn,#yahooIdentityUserCardBody em,#yahooIdentityUserCardBody strong,#yahooIdentityUserCardBody var,#yahooIdentityUserCardBody th,#yahooIdentityUserCardBody ins,#yahooIdentityUserCardBody del,#yahooIdentityUserCardBody samp,.yahooIdentityPanelContainer address,.yahooIdentityPanelContainer cite,.yahooIdentityPanelContainer dfn,.yahooIdentityPanelContainer em,.yahooIdentityPanelContainer strong,.yahooIdentityPanelContainer var,.yahooIdentityPanelContainer th,.yahooIdentityPanelContainer ins,.yahooIdentityPanelContainer del,.yahooIdentityPanelContainer samp{font-weight:normal;
+font-style:normal;
+}
+#yahooIdentityUserCardBody a img,.yahooIdentityPanelContainer a img{border:0;
+}
+#yahooIdentityUserCardBody hr.separation,.yahooIdentityPanelContainer hr.separation{display:none;
+}
+#yahooIdentityUserCardBody fieldset,.yahooIdentityPanelContainer fieldset{border:none;
+}
+.yahooIdentityOverlay{position:absolute;
+display:block;
+}
+* html body.yahooIdentityMasked select{visibility:hidden;
+}
+* html div.yahooIdentityPanelContainer select{visibility:inherit;
+}
+* html div.yahooIdentityHideSelect select{visibility:hidden;
+}
+.yahooIdentityMask{width:100%;
+height:100%;
+z-index:1000;
+display:none;
+position:absolute;
+top:0;
+left:0;
+-moz-opacity:.5;
+opacity:.50;
+background-color:#CCC;
+-ms-filter:"alpha(opacity=50)";
+filter:alpha(opacity=50);
+}
+.yahooIdentityHideScrollbars *{overflow:hidden;
+}
+.yahooIdentityHideScrollbars textarea,.yahooIdentityHideScrollbars select{overflow:hidden;
+display:none;
+}
+.yahooIdentityShowScrollbars textarea,.yahooIdentityShowScrollbars select{overflow:visible;
+}
+.yahooIdentityPanelContainer{position:absolute;
+background-color:transparent;
+z-index:1006;
+visibility:hidden;
+overflow:visible;
+width:auto;
+}
+.yahooIdentityPanel{visibility:hidden;
+position:relative;
+left:0;
+top:0;
+font:1em Arial;
+background-color:#FFF;
+border:1px solid #ccc;
+z-index:1001;
+overflow:hidden;
+}
+#yahooIdentityUserCardBody .floatClear,.yahooIdentityUserCardBox .floatClear,.yahooIdentityUserCardBoxIgnore .floatClear{clear:both;
+font-size:0;
+}
+#yahooIdentityUserCardBody .clearFix,.yahooIdentityUserCardBox .clearFix,.yahooIdentityUserCardBoxIgnore .clearFix{display:inline-block;
+}
+#yahooIdentityUserCardBody .clearFix:after,.yahooIdentityUserCardBox .clearFix:after,.yahooIdentityUserCardBoxIgnore .clearFix:after{display:block;
+clear:both;
+visibility:hidden;
+height:0;
+content:".";
+}
+* html #yahooIdentityUserCardBody .clearFix,* html .yahooIdentityUserCardBox .clearFix,* html .yahooIdentityUserCardBoxIgnore .clearFix{height:1%;
+}
+#yahooIdentityUserCardBody .clearFix,.yahooIdentityUserCardBox .clearFix,.yahooIdentityUserCardBoxIgnore .clearFix{display:block;
+}
+#yahooIdentityUserCardBody .wbr{clear:both;
+width:0;
+height:1px;
+margin-top:-1px;
+white-space:nowrap;
+float:left;
+display:block;
+}
+#yahooIdentityUserCardBody a{text-decoration:none;
+}
+#yahooIdentityUserCardBody a:hover{text-decoration:underline;
+}
+.yahooIdentityUserCardBox{font-size:75.4%;
+line-height:1.44em;
+height:800px;
+background-color:#fff;
+border-top:5px solid #e5e5e5;
+}
+.yahooIdentityUserCardBox iframe{border:none;
+height:775px;
+width:490px;
+margin:10px 0 0 10px;
+padding:0;
+clear:both;
+}
+.yahooIdentityUserCardBox .closeWindow{position:absolute;
+width:480px;
+text-align:right;
+margin:10px 10px 0 0;
+}
+.yahooIdentityUserCardBox .closeWindow img{cursor:pointer;
+}
+.yahooIdentityUserCardBoxIgnore .closeWindow img{cursor:pointer;
+}
+.yahooIdentityUserCardBoxIgnore{text-align:left;
+font-size:75.4%;
+line-height:1.44em;
+width:400px;
+height:255px;
+background-color:#fff;
+border-top:5px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .wbr{clear:both;
+width:0;
+height:1px;
+margin-top:-1px;
+white-space:nowrap;
+float:left;
+display:block;
+}
+.yahooIdentityUserCardBoxIgnore .closeWindow{width:380px;
+text-align:right;
+margin:5px 10px 0;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap{margin:0 10px 10px;
+padding-bottom:1px;
+border-bottom:3px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap .titleHead{height:22px;
+background:url(../img/title_gray_10x22.jpg) no-repeat 0 50%;
+padding-left:15px;
+}
+.yahooIdentityUserCardBoxIgnore .titleWrap .titleHead .titleText{font-weight:bold;
+font-size:132.6%;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap{width:340px;
+margin:30px;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div{float:left;
+margin:0 5px 0 0;
+padding:0;
+display:inline;
+width:34px;
+height:34px;
+border:1px solid #ccc;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div table{margin:1px;
+padding:0;
+width:32px;
+height:32px;
+border:0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div td{text-align:center;
+vertical-align:middle;
+margin:0;
+padding:0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap div td img{margin:0;
+padding:0;
+}
+.yahooIdentityUserCardBoxIgnore .introductionThumbnailWrap p.introductionTxt{float:left;
+width:299px;
+margin:0;
+}
+.yahooIdentityUserCardBoxIgnore .attention{width:358px;
+margin:10px;
+padding:10px;
+border:1px solid #e5e5e5;
+}
+.yahooIdentityUserCardBoxIgnore .attention p.attentionLeft{float:left;
+width:40px;
+margin:0 10px 0 0;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .attention p.attentionRight{float:left;
+width:290px;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton{width:380px;
+margin:0 10px;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitOk{width:100px;
+margin:0 5px 0 0;
+color:#fff;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitNg{width:100px;
+margin:0 0 0 5px;
+}
+.yahooIdentityUserCardBoxIgnore p.MessageHeadTxt{margin:50px 0 5px;
+text-align:center;
+font-size:132.6%;
+font-weight:bold;
+}
+.yahooIdentityUserCardBoxIgnore p.MessageTxt{margin:4px 0 50px;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton{width:380px;
+margin:0 10px;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .submitButton .submitOk{width:100px;
+background-color:#fe9900;
+color:#fff;
+}
+.yahooIdentityUserCardBoxIgnore p.sendMsgHeadTxt{margin:50px 0 5px;
+padding:0 10px;
+text-align:center;
+font-size:132.6%;
+font-weight:bold;
+}
+.yahooIdentityUserCardBoxIgnore p.sendMsgTxt{margin:4px 0 50px;
+padding:0 10px;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .ButtonWrap{margin-top:50px;
+text-align:center;
+}
+.yahooIdentityUserCardBoxIgnore .ButtonWrap button{width:100px;
+margin:0 5px;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonContainer{background:url(../img/bgActionButton_m_184x25_off.gif) no-repeat;
+width:184px;
+height:25px;
+padding:0;
+margin:0 0 4px 4px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMain{width:160px;
+height:25px;
+margin:0;
+padding:0;
+float:left;
+background-image:none;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMainHighlight{width:160px;
+height:25px;
+margin:0;
+padding:0;
+float:left;
+background:url(../img/bgActionButton_m_160x25_on.gif) no-repeat;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMain a,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMainHighlight a,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMain a:hover,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMainHighlight a:hover{display:block;
+width:130px;
+height:22px;
+margin:0;
+padding:3px 0 0 30px;
+text-decoration:none;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonSub{width:24px;
+height:25px;
+float:left;
+margin:0;
+padding:0;
+cursor:pointer;
+background-image:none;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonSubHighlight{background:url(../img/bgActionButton_24x25_on.gif) no-repeat;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonSubPushed{background:url(../img/bgActionButton_24x25_pushed.gif) no-repeat;
+}
+#yahooIdentityUserCardBody iframe.yahooIdentityUserCardActionButtonMask{width:184px;
+border:0;
+visibility:hidden;
+background:#fff;
+position:absolute;
+filter:alpha(opacity=0);
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus{z-index:10000;
+visibility:hidden;
+position:absolute;
+margin:0;
+width:184px;
+overflow:hidden;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.bottom{height:3px;
+background:url(../img/menuBottom.gif) no-repeat;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.dot{height:5px;
+padding:0;
+margin:0;
+font-size:0;
+background:#f4f4f4 url(../img/menuDot.gif) no-repeat 0 2px;
+border-left:1px #bcbcbc solid;
+border-right:1px #bcbcbc solid;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.menu{background-color:#f4f4f4;
+border-left:1px #bcbcbc solid;
+border-right:1px #bcbcbc solid;
+}
+#yahooIdentityUserCardActionButtonMenus div.menu a,#yahooIdentityUserCardActionButtonMenus div.menu a:hover,#yahooIdentityUserCardActionButtonMenus div.menu div{color:#000;
+display:block;
+height:25px;
+padding:0;
+margin:0 3px;
+text-decoration:none;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.menu a span,#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.menu div span{margin-left:29px;
+padding-top:4px;
+display:block;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.menu div span{color:#888;
+cursor:default;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonMenus div.menu div span img{margin:-2px 0 -2px 5px;
+height:16px;
+width:16px;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus div.menu a,
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus div.menu div{
+    background-color:transparent;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardActionButtonContainer #yahooIdentityUserCardActionButtonMenus div.menu a:hover{
+    background-color:#ffe57f;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardContents{font-size:75.4%;
+line-height:1.56em;
+color:#666;
+background:#fff;
+text-align:left;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOfficial{text-align:center;
+background:url(../img/officialImg204.gif) no-repeat center;
+margin:0 0 3px 0;
+padding:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardAttentionMsg{font-weight:700;
+text-align:center;
+display:block;
+color:#f00;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardTitleAndConnection{padding:4px 4px 0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardTitle{font-weight:700;
+text-align:center;
+display:block;
+margin:0 0 6px;
+line-height:115%;
+word-wrap:break-word;
+zoom:1;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardTitle img.yahooIdentityUserCardTitleImIcon{position:relative;
+top:2px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardConnection{font-size:85%;
+text-align:center;
+display:block;
+margin:0 0 6px;
+line-height:115%;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnail{text-align:center;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailPanelRow{margin:0 0 5px 0;
+}
+#yahooIdentityUserCardBody div.yahooIdentityUserCardThumbnailPanelAvatar img{position:absolute;
+left:-24px;
+top:-24px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnail #yahooIdentityUserCardThumbnailContainer img{vertical-align:bottom;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInner{float:none;
+width:182px;
+height:182px;
+border:solid 1px #ccc;
+display:block;
+margin:0 auto 6px;
+padding:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInner table{margin:1px;
+padding:0;
+width:180px;
+height:180px;
+border:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInner td{text-align:center;
+vertical-align:middle;
+margin:0;
+padding:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInner td img{margin:0;
+padding:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInnerAvt{width:102px;
+margin:0 40px 6px 40px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardThumbnailInnerAvt table{width:100px;
+}
+#yahooIdentityUserCardBody #yahooIdentityUserCardThumbnailJsAvatar{display:none;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap{margin:6px 4px 0;
+clear:both;
+font-size:83.7%;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoSexAndBloodType{float:left;
+width:50px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo{float:right;
+width:115px;
+text-align:left;
+}
+@media screen and(-webkit-min-device-pixel-ratio:0){#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo{width:125px;
+}
+}
+body:last-child:not(:root:root) #yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo{width:125px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo a{margin-left:3px;
+position:relative;
+top:-4px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardProfInfoWrap .yahooIdentityUserCardProfInfoMoreInfo a img{position:relative;
+top:4px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOriginalSpace{margin:5px 0 0;
+/* background:url(../img/common/dot_ccc.gif) repeat-x 0 0; */
+clear:both;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardNoOriginalSpace{clear:both;
+margin:0 0 5px 0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardPullDownMenuJsOff{width:184px;
+float:left;
+margin:0 0 0 4px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardPullDownMenuJsOff form button{margin:3px 0 0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardPullDownMenuJsOff form select{width:124px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMain a,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMainHighlight a,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMain a:hover,#yahooIdentityUserCardBody .yahooIdentityUserCardActionButtonMainHighlight a:hover{width:130px;
+*display:block!important;
+*padding:3px 0 0 30px!important;
+*text-decoration:none!important;
+}
+#yahooIdentityUserCardBody form select .yahooIdentityUserCardDisabled{color:#ccc;
+}
+#yahooIdentityUserCardBody form .yahooIdentityUserCardSubmitYou{background:#f90;
+color:#fff;
+}
+#yahooIdentityUserCardBody form .yahooIdentityUserCardSubmitDisabled{background:#ccc;
+color:#999;
+}
+*:first-child+html #yahooIdentityUserCardBody .yahooIdentityUserCardConnection{font-size:75%;
+}
+html:not(:selected) #yahooIdentityUserCardBody .yahooIdentityUserCardPullDownMenuJsOff form select{top:-7px;
+position:relative;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardContents .yahooIdentityUserCardImConnection{display:block;
+line-height:115%;
+margin:-3px 4px 8px;
+padding:0;
+text-align:center;
+font-size:83.7%;
+position:relative;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardContents .yahooIdentityUserCardImConnection img.yahooIdentityUserCardImConnectionImIcon{position:relative;
+top:3px;
+}
+.yahooIdentityUserCardTitleAndConnection{position:relative;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap{width:204px;
+_width:192px;
+margin:0;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap .otherImgWrap{width:56px;
+float:left;
+padding:0 4px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap .otherImgWrap .otherImg{border:1px solid #ccc;
+height:52px;
+padding:1px;
+width:52px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap .otherImgWrap .avt{height:52px;
+width:52px;
+overflow:hidden;
+position:relative;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap .otherImgWrap .avt img{position:relative;
+top:-24px;
+left:-24px;
+}
+#yahooIdentityUserCardBody .yahooIdentityUserCardOtherImgWrap .otherImgWrap table tr td{vertical-align:middle;
+text-align:center;
+width:52px;
+height:52px;
+margin:0;
+padding:0;
+}

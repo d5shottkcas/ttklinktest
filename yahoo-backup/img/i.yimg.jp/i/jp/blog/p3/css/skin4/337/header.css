@@ -1,0 +1,48 @@
+/* ==== height95 === */
+#blogHeaderArea{
+position:relative;
+height:95px;
+}
+.bgText {
+display:none;
+}
+#blogHeaderArea .headerContent h1{
+padding:0;
+top:21px;
+left:20px;
+width:auto;
+}
+#blogHeaderArea .headerContent h1 img.ImgEdit {
+position:relative;
+top:-3px;
+}
+#blogHeaderArea .headerContent .topImgPos1 {
+position:absolute;
+width:790px;
+height:95px;
+display:block;
+}
+#blogHeaderArea .headerContent .oneMsg {
+font-size:0.75em;
+position:relative;
+top:53px;
+left:20px;
+width:594px;
+line-height:1.3em;
+}
+#blogHeaderArea .headerContent .oneMsg img.ImgEdit {
+position:relative;
+top:0;
+left:3px;
+}
+#blogHeaderArea .headerContent .oneMsg .topImgPos2 {
+position:absolute;
+display:block;
+width:578px;
+height:2.4em;
+}
+#blogHeaderArea .headerContent ul {
+right:10px;
+bottom:17px;
+}
+

@@ -1,0 +1,220 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+h1.logo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:400px;
+	height:170px;
+}
+iframe.gamearea{
+	margin:0 auto;
+	border:none;
+	width:100%;
+	height:500px;
+}
+
+a.sp{
+	display:none;
+}
+div.area{
+	font-size:0;
+	margin:15px auto;
+	padding:2px;
+	border:1px solid #000;
+	background:rgb(222,204,132);
+	width:646px;
+}
+div.area div.monitor{
+	background:#ff0000 url(http://www.nhk.or.jp/tvkun/images/jikai_bg.png) center center no-repeat;
+	background-size:180% 180%;
+	margin-bottom:2px;
+	padding:2px;
+	border:1px solid #000;
+}
+div.area div.monitor img{
+//	border-radius:5px;
+	padding:0;
+	width:32px;
+	height:32px;
+}
+div.area div.result{
+	font-size:16px;
+	line-height:100%;
+	font-weight:bold;
+	text-align:center;
+	margin:0;
+	padding:0;
+	background:rgb(255,201,14);
+	border:1px solid #000;
+}
+div.area div.result ul{
+	font-size:0;
+	text-align:center;
+	padding:3px 0;
+	margin:0;
+}
+div.area div.result ul li{
+	text-align:center;
+	margin:0 10px;
+	display:inline-block;
+}
+
+div.area div.result ul li img{
+	padding:4px;
+	margin:2px auto;
+	background:#fff;
+	border:1px solid #000;
+	border-radius:3px;
+}
+div.area div.result ul li span{
+	font-size:16px;
+	text-align:center;
+	padding:12px 0;
+	margin:2px 0;
+	background:#fff;
+	border:1px solid #000;
+	border-radius:3px;
+	width:58px;
+	display:block;
+}
+div.area div.result ul li input{
+	font-size:16px;
+	line-height:125%;
+	font-weight:bold;
+	text-align:center;
+	border-radius:2px;
+	border:1px solid #000;
+	width:60px;
+}
+div.area div.result ul.btm li.select input{width:40px;border:none;background:rgb(255,201,14);}
+div.area div.result ul.btm li{
+	font-size:16px;
+	width:150px;
+	text-align:center;
+	margin:0 5px;
+	display:inline-block;
+}
+div.area div.result ul.btm li input{
+	font-family:"メイリオ",Meiryo,"MS Gothic","ＭＳ ゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",monospace;
+	background:#fff;
+	border:1px solid #000;
+	padding:4px 0;
+	width:130px;
+}
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width:768px){
+h1.logo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:400px;
+	height:170px;
+}
+iframe.gamearea{
+	margin:0 auto;
+	border:none;
+	width:100%;
+	height:71vw;
+}
+a.sp{
+	font-size:3.333vw;
+	line-height:125%;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	background:#fff;
+	margin:5vw 3vw 2vw 3vw;
+	padding:2vw 0;
+	display:block;
+	border-radius:3px;
+}
+
+div.area{
+	font-size:0;
+	margin:8px auto;
+	padding:1px;
+	border:1px solid #000;
+	background:rgb(222,204,132);
+	width:560px;
+}
+div.area div.monitor{
+	background:#000 url(http://www.nhk.or.jp/tvkun/images/jikai_bg.png) center center no-repeat;
+	background-size:180% 180%;
+	padding:2px;
+	border:1px solid #000;
+}
+div.area div.monitor img{
+	padding:0;
+	width:27.7px;
+	height:27.7px;
+}
+div.area div.result{
+	font-size:16px;
+	line-height:100%;
+	font-weight:bold;
+	text-align:center;
+	margin:1px 0 0 0;
+	padding:0;
+	background:rgb(255,205,26);
+	border:1px solid #000;
+}
+div.area div.result ul{
+	font-size:0;
+	text-align:center;
+	padding:3px 0;
+	margin:0;
+}
+div.area div.result ul li{
+	text-align:center;
+	margin:0 2.5px;
+	display:inline-block;
+}
+div.area div.result ul li img{
+	padding:4px;
+	margin:2px auto;
+	background:#fff;
+	border:1px solid #000;
+	border-radius:3px;
+}
+div.area div.result ul li span{
+	font-size:16px;
+	text-align:center;
+	padding:12px 0;
+	margin:2px 0;
+	background:#fff;
+	border:1px solid #000;
+	border-radius:3px;
+	width:60px;
+	display:block;
+}
+div.area div.result ul li input{
+	font-size:16px;
+	line-height:125%;
+	font-weight:bold;
+	text-align:center;
+	border-radius:2px;
+	border:1px solid #000;
+	width:60px;
+}
+div.area div.result ul.btm li.select input{width:40px;border:none;background:rgb(255,205,26);}
+div.area div.result ul.btm li{
+	font-size:16px;
+	width:150px;
+	text-align:center;
+	margin:0 5px;
+	display:inline-block;
+}
+div.area div.result ul.btm li input{
+	font-family:"メイリオ",Meiryo,"MS Gothic","ＭＳ ゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",monospace;
+	background:#fff;
+	border:1px solid #000;
+	padding:4px 0;
+	width:130px;
+}
+}

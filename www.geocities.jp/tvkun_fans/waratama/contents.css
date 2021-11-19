@@ -1,0 +1,627 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+body.waratama{
+	background:rgb(245,220,146);
+//	background:url("http://www.nhk.or.jp/prog/images/theme03/head_bgimg.jpg");
+//	background-attachment:fixed;
+}
+body.waratama p.copyright{
+	font-size:16px;
+	color:#003;
+	text-align:center;
+	font-weight:bold;
+	padding:0 0 15px 0;
+	margin:0;
+}
+/*〓ヘッダー情報〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.waratama div.introduction{
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	background-size:auto;
+	margin:0 auto;
+	padding:15px;
+}
+body.waratama div.introduction img{
+	background:url(logo.png) no-repeat;
+	background-size:100% ;
+	width:320px;
+	height:210px;
+	display:inline-block;
+	vertical-align:top;
+}
+body.waratama div.introduction div{
+	padding:0 10px;
+	margin:0;
+	display:inline-block;
+	width:630px;
+	vertical-align:top;
+}
+body.waratama div.introduction div h1{
+	font-size:32px;
+	line-height:130%;
+	margin:0;
+}
+body.waratama div.introduction div h1 span{
+	font-size:18px;
+	line-height:130%;
+	display:block;
+}
+body.waratama div.introduction div p{
+	font-size:14px;
+	line-height:190%;
+	font-weight:normal;
+	margin:0;
+	color:#000;
+}
+body.waratama div.introduction div a{
+	font-size:14px;
+	text-decoration:none;
+	text-align:center;
+	background:rgb(189,112,31);
+	color:#fff;
+	border-radius:5px;
+	padding:5px 0;
+	margin:2px;
+	width:205px;
+	display:inline-block;
+	-webkit-box-shadow: 0px 1px #000;
+	   -moz-box-shadow: 0px 1px #000;
+	        box-shadow: 0px 1px #000;
+}
+body.waratama div.introduction div a:hover{
+	background:rgb(241,140,51);
+}
+/*〓メインメニュー〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.waratama ul.menu{
+	list-style-type:none;
+	padding:0 5px;
+	margin:10px 0;
+	border-bottom:#999 solid 1px;
+	background:#fff;
+	-webkit-box-shadow: 0 2px 5px #999;
+	   -moz-box-shadow: 0 2px 5px #999;
+	        box-shadow: 0 2px 5px #999;
+}
+body.waratama ul.menu li{
+	margin:10px 0;
+	padding:0 5px;
+	display:inline-block;
+}
+body.waratama ul.menu li + li{
+	border-left:1px solid #999;
+}
+body.waratama ul.menu li a{
+	font-size:17px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#000;
+	padding:2px 10px;
+	display:block;
+}
+body.waratama ul.menu li:hover{
+	text-decoration:underline;
+}
+/*〓次回予告〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+div.nextdata{
+	border-top:5px solid rgb(189,112,31);
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	padding:10px;
+	margin:10px 0;
+}
+div.nextdata h1{
+	font-size:25px;
+	line-height:100%;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+div.nextdata div.jikai{
+	padding:5px 0;
+}
+div.nextdata div.jikai h2{
+	font-size:20px;
+	line-height:100%;
+	margin:8px 0;
+}
+div.nextdata div.jikai h2 span{
+	font-size:15px;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai p{
+	font-size:16px;
+	text-align:justify;
+	line-height:180%;
+	margin:0 0 0 10px;
+	width:600px;
+	display:inline-block;
+}
+div.nextdata div.jikai p.imgs{
+	width:98%;
+	margin:0 10px;
+}
+div.nextdata div.jikai img{
+	width:360px;
+	vertical-align:top;
+	-webkit-box-shadow: 2px 2px 1px #555;
+	   -moz-box-shadow: 2px 2px 1px #555;
+	        box-shadow: 2px 2px 1px #555;
+}
+div.nextdata ul.kongo{
+	list-style-type:none;
+	padding:0;
+	margin:5px 0;
+	overflow-x:auto;
+}
+div.nextdata ul.kongo li{
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px dotted #999;
+	margin:5px;
+	padding:5px;
+	width:305px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+div.nextdata ul.kongo li span{
+	font-size:13px;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai h1,
+div.nextdata ul.kongo h1{
+	font-size:17px;
+	line-height:100%;
+	text-align:left;
+	color:#ea4800;
+	border-bottom:1px solid #ea4800;
+	margin:0;
+	padding:3px 0;
+}
+/*〓登場人物紹介〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+ul#character h1{
+	font-size:40px;
+	line-height:100%;
+	margin:10px 0;
+	padding:10px;
+}
+ul#character{
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	text-align:center;
+	border:1px solid #eee;
+	margin:0px auto;
+	padding:5px 10px;
+}
+ul#character li.collection{
+	width:470px;
+	display:inline-block;
+}
+ul#character li.collection img{
+	width:100%;
+}
+ul#character li.profile{
+	text-align:left;
+}
+ul#character li.profile img{
+	width :280px;
+}
+ul#character li.profile div{
+	display:inline-block;
+	vertical-align:top;
+}
+ul#character li.profile div h1{
+	font-size:25px;
+	line-height:100%;
+	font-weight:bold;
+	margin:5px 0 0 15px;
+}
+ul#character li.profile div p{
+	font-size:16px;
+	font-weight:normal;
+	line-height:150%;
+	margin:0 0 0 15px;
+	vertical-align:top;
+	display:inline-block;
+	width :100%;
+}
+/*〓よくある質問〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+dl#faq{
+	border:1px solid #eee;
+	background:#fff;
+	list-style-type:none;
+	margin:10px auto;
+	padding:10px;
+}
+dl#faq h1{
+	font-size:40px;
+	margin:0 10px;
+}
+dl#faq dt{	
+	font-size:20px;
+	line-height:100%;
+	text-align:justify;
+	padding:0 0 0 10px;
+}
+dl#faq dd{
+	font-size:17px;
+	padding:0 10px 15px 25px;
+	margin:0;
+	text-align:justify;
+}
+dl#faq dt span{color:red; font-weight:bold;text-shadow:1px 1px #000;}
+dl#faq dd span{color:blue;font-weight:bold;text-shadow:1px 1px #000;}
+dl#faq dd a{color:#111;}
+dl#faq dd a:hover{color:#888;}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓これまでの放送〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+ul.oadata{
+	border:1px solid #eee;
+	background:#fff;
+	margin:10px auto;
+	padding:0;
+	list-style-type:none;
+}
+ul.oadata h2{
+	font-size:30px;
+	line-height:100%;
+	text-align:center;
+	margin:10px 0 0 0;
+}
+ul.oadata li{
+	position:relative;
+	width:316px;
+	margin:10px 8px;
+	padding-top:10px;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+ul.oadata li + li + li + li{
+	border-top:1px solid #999;
+}
+ul.oadata li h1{
+	font-size:18px;
+	text-align:center;
+	letter-spacing:-1.5px;
+	margin:9px 0;
+}
+ul.oadata li h1 span{
+	font-size:12px;
+	line-height:100%;
+	text-align:right;
+	display:block;
+}
+ul.oadata li img{
+	width:100%;
+	-webkit-box-shadow: 2px 2px 2px #999;
+	   -moz-box-shadow: 2px 2px 2px #999;
+	        box-shadow: 2px 2px 2px #999;
+}
+ul.oadata li img.noshadow{box-shadow:none;}
+ul.oadata li p{
+	font-size:14px;
+	text-align:justify;
+	line-height:140%;
+	margin:5px 0 10px;
+}
+ul.oadata li div.result{
+	text-align:center;
+	margin:0 0 5px 0;
+	border-bottom:1px solid #999;
+}
+ul.oadata li div.result p.left		{text-align:left; margin:0;} 
+ul.oadata li div.result p.right		{text-align:right;margin:0;} 
+ul.oadata li div.result p.win span	{color:red; font-weight:bold;} 
+ul.oadata li div.result p.lose span	{color:blue;font-weight:bold;} 
+
+ul.oadata li div.result p.left,
+ul.oadata li div.result p.right{
+	font-size:17px;
+	line-height:100%;
+	margin:-3px 0 2px 0;
+}
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width:768px){
+body.waratama{
+	background:rgb(245,220,146);
+//	background:url("http://www.nhk.or.jp/prog/images/theme03/head_bgimg.jpg");
+//	background-attachment:fixed;
+
+}
+body.waratama p.copyright{
+	font-size:3vw;
+	color:#003;
+	text-align:center;
+	font-weight:bold;
+	margin:4vw;
+}
+/*〓ヘッダー情報〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+body.waratama div.introduction{
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	background-size:auto;
+	text-align:center;
+	padding:2vw 0;
+	margin:2vw 0;
+}
+body.waratama div.introduction img{
+	background:url(logo.png) no-repeat;
+	background-size:100% ;
+	width:60vw;
+	height:40vw;
+	display:inline-block;
+	vertical-align:top;
+}
+body.waratama div.introduction div{
+	padding:2vw;
+	margin:0;
+	display:block;
+}
+body.waratama div.introduction div h1{
+	font-size:6vw;
+	line-height:130%;
+	margin:0;
+}
+body.waratama div.introduction div h1 span{
+	font-size:4vw;
+	line-height:130%;
+	display:block;
+}
+body.waratama div.introduction div p{
+	font-size:4vw;
+	line-height:130%;
+	font-weight:normal;
+	margin:4vw;
+	color:#000;
+}
+body.waratama div.introduction div a{
+	font-size:3.8888888vw;
+	text-decoration:none;
+	text-align:center;
+	background:rgb(189,112,31);
+	color:#fff;
+	border-radius:5px;
+	padding:5px 0;
+	margin:2px;
+	width:43vw;
+	display:inline-block;
+	-webkit-box-shadow: 0px 1px #000;
+	   -moz-box-shadow: 0px 1px #000;
+	        box-shadow: 0px 1px #000;
+}
+/*〓メインメニュー〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+ul.menu{
+	text-align:center;
+	list-style-type:none;
+	padding:0 2vw;
+	margin:2vw 0;
+	border-bottom:#999 solid 1px;
+	background:#fff;
+	-webkit-box-shadow: 0 2px 5px #999;
+	   -moz-box-shadow: 0 2px 5px #999;
+	        box-shadow: 0 2px 5px #999;
+}
+ul.menu li{
+	display:inline-block;
+	margin:1.8vw 0;
+	border-right:0.2vw solid #999;
+}
+ul.menu li a{
+	font-size:4.5vw;
+	color:#000;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	padding:0.1vw 2vw;
+}
+/*〓次回予告〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+div.nextdata{
+	border-top:1vw solid rgb(189,112,31);
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	padding:10px;
+	margin:10px 0;
+}
+div.nextdata h1{
+	font-size:9vw;
+	color:#ea4800;
+	text-align:center;
+	margin:0;
+}
+div.nextdata div.jikai h1,
+div.nextdata ul.kongo h1{
+	font-size:6vw;
+	line-height:100%;
+	text-align:left;
+	color:#ea4800;
+	border-bottom:1px solid #ea4800;
+	margin:0;
+	padding:0.5vw 0;
+}
+div.nextdata div.jikai h2{
+	font-size:5.5vw;
+	line-height:120%;
+	margin:1vw 0 1vw 0;
+}
+div.nextdata div.jikai h2 span{
+	font-size:4.2222vw;
+	font-weight:normal;
+	display:block;
+}
+div.nextdata div.jikai img{
+	margin:1vw auto 3vw;
+	width:95%;
+	display:block;
+	-webkit-box-shadow: 2px 2px 1px #555;
+	   -moz-box-shadow: 2px 2px 1px #555;
+	        box-shadow: 2px 2px 1px #555;
+}
+div.nextdata div.jikai p{
+	font-size:3.888vw;
+	line-height:120%;
+	margin:0;
+}
+div.nextdata ul.kongo{
+	list-style-type:none;
+	margin:2.5vw 0;
+	padding:0;
+}
+div.nextdata ul.kongo li{
+	font-size:3.9vw;
+	line-height:120%;
+	font-weight:bold;
+	padding:1vw 0;
+	border-bottom:1px dotted #999;
+}
+div.nextdata ul.kongo li span{
+	font-size:3.555vw;
+	font-weight:normal;
+	display:block;
+}
+/*〓登場人物紹介〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+ul#character h1{
+	font-size:6.5vw;
+	line-height:100%;
+	margin:2vw 0;
+}
+ul#character{
+  	background:url(http://www.nhk.or.jp/prog/images/theme03//article_bgimg.jpg);
+	text-align:center;
+	border:1px solid #eee;
+	margin:3vw 0;
+	padding:5px 10px;
+}
+ul#character li.profile{
+	text-align:center;
+}
+ul#character li.profile img{
+	width :90%;
+}
+ul#character li.profile div{
+	text-align:left;
+	margin-bottom:10vw;
+}
+ul#character li.profile div h1{
+	font-size:6vw;
+	line-height:100%;
+	font-weight:bold;
+	margin:1vw 0 0 2vw;
+}
+ul#character li.profile div p{
+	font-size:4.555vw;
+	font-weight:normal;
+	line-height:130%;
+	margin:0 0 0 0.5vw;
+	vertical-align:top;
+	display:inline-block;
+	width :100%;
+}
+ul#character li.collection{
+	width:90%;
+	margin:1vw auto;
+}
+ul#character li.collection img{
+	width:100%;
+	border-top:1px solid #888;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓よくある質問〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+dl#faq{
+	background:#fff;
+	list-style-type:none;
+	margin:3vw auto;
+	padding:1.5vw;
+	-webkit-box-shadow: 0 2px 5px #555;
+	   -moz-box-shadow: 0 2px 5px #555;
+	        box-shadow: 0 2px 5px #555;
+}
+dl#faq h1{
+	font-size:7vw;
+	margin:0;
+}
+dl#faq dt{	
+	font-size:5.2vw;
+	line-height:130%;
+	padding:2vw 0 0 2vw;
+	border-top:1px solid #999;
+}
+dl#faq dd{
+	font-size:4vw;
+	line-height:130%;
+	padding:0 1vw 2vw 3vw;
+	margin:0;
+}
+dl#faq dd a{color:#111;}
+dl#faq dt span{color:red; font-weight:bold;text-shadow:1px 1px #000;}
+dl#faq dd span{color:blue;font-weight:bold;text-shadow:1px 1px #000;}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓これまでの放送〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+ul.oadata{
+	background:#fff;
+	padding:0;
+}
+ul.oadata{
+	list-style-type:none;
+	padding:0;
+	margin:3vw 0;
+}
+ul.oadata h2{
+	font-size:8.5vw;
+	line-height:180%;
+	text-align:center;
+	margin:5vw 0 -2vw 0;
+}
+ul.oadata li{
+	position:relative;
+	margin:2vw 5vw;
+	border-bottom:1px solid #999;
+	display:inline-block;
+	vertical-align:top;
+}
+ul.oadata li h1{
+	font-size:5.777vw;
+	line-height:120%;
+	margin:3vw 0;
+}
+ul.oadata li h1 span{
+	font-size:3.55vw;
+	line-height:100%;
+	text-align:right;
+	display:block;
+}
+ul.oadata li img{	
+	width:100%;
+	-webkit-box-shadow: 0 4px 2px #999;
+	   -moz-box-shadow: 0 4px 2px #999;
+	        box-shadow: 0 4px 2px #999;
+}
+ul.oadata li p{
+	font-size:4.333vw;
+	text-align:justify;
+	line-height:120%;
+	margin:1vw 0 3vw;
+}
+ul.oadata li div.result{
+	text-align:center;
+	margin:0;
+	border-bottom:1px solid #999;
+}
+ul.oadata li div.result p.left		{text-align:left; margin:0;} 
+ul.oadata li div.result p.right		{text-align:right;margin:0;} 
+ul.oadata li div.result p.win span	{color:red; font-weight:bold;} 
+ul.oadata li div.result p.lose span	{color:blue;font-weight:bold;} 
+
+ul.oadata li div.result p.left,
+ul.oadata li div.result p.right{
+	font-size:5vw;
+	line-height:100%;
+	margin:-0.3vw 0 0 0;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+}

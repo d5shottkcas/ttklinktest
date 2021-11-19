@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<update value="110321" />
+	<postid value="110321" />
+
+	<swfdata>
+		<male   lastno="1" />
+		<female lastno="1" />
+		<unisex lastno="1" />
+	</swfdata>
+</data>

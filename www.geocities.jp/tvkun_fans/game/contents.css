@@ -1,0 +1,150 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+h1.mainlogo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:600px;
+	height:170px;
+}
+div.base ul.gamelist{
+	margin:0 auto;
+	padding:10px 0 50px 0;
+	width:810px;
+	position: relative;
+}
+div.base ul.gamelist li{
+	margin:10px 5px;
+	border:5px solid #000;
+	background:rgb(0,56,6);
+	width:250px;
+	display:inline-block;
+	transition-duration:0.3s;
+}
+div.base ul.gamelist li a{
+	color:#fff;
+	text-decoration:none;
+}
+div.base ul.gamelist li img{
+	width:100%;
+}
+div.base ul.gamelist li h1{
+	font-size:18px;
+	text-align:center;
+	text-shadow:2px 2px #000;
+	margin:5px 0 0 0;
+}
+div.base ul.gamelist li p.mess{
+	display:none;
+}
+div.base ul.gamelist li:hover p.mess{
+	font-size:18px;
+	background:rgba(0,0,0,0.7);
+	color:#fff;
+	border:1px solid #000;
+	border-radius:10px;
+	margin:10px 5px;
+	padding:5px;
+	display:block;
+	width:790px;
+	position:absolute;
+	left:0;
+}
+/*---------------------------------------*/
+/*-ゲームの説明--------------------------*/
+div.gamemess{
+	text-align:center;
+	margin:0 auto;
+	padding:0 0 50px 0;
+	width:700px;
+}
+div.gamemess h1{
+	font-size:20px;
+	background:rgb(255,204,0);
+	margin:0;
+	padding:3px;
+}
+div.gamemess p{
+	font-size:17px;
+	line-height:190%;
+	background:#fff;
+	margin:0;
+	padding:8px 5px;
+	-webkit-box-shadow:0 3px 3px #111;
+	   -moz-box-shadow:0 3px 3px #111;
+	        box-shadow:0 3px 3px #111;
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width: 768px){
+h1.mainlogo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:95%;
+	height:32vw;
+}
+div.base ul.gamelist{
+	margin:0 auto;
+	padding:2vw 0 10vw 0;
+	width:96vw;
+}
+div.base ul.gamelist li{
+	margin:0.5vw;
+	border:1.5vw solid #000;
+	background:rgb(1,38,1);
+	width:43.8vw;
+	display:inline-block;
+	transition-duration:0.3s;
+}
+div.base ul.gamelist li a{
+	color:#fff;
+	text-decoration:none;
+}
+div.base ul.gamelist li img{
+	width:100%;
+}
+div.base ul.gamelist li h1{
+	font-size:3.5vw;
+	text-align:center;
+	margin:5px 0 0 0;
+}
+div.base ul.gamelist li p.mess{
+	display:none;
+}
+/*---------------------------------------*/
+/*-ゲームの説明--------------------------*/
+div.gamemess{
+	text-align:center;
+	margin:0 auto;
+	padding:0 0 10vw 0;
+	width:90%;
+}
+div.gamemess h1{
+	font-size:5vw;
+	background:rgb(255,204,0);
+	margin:0;
+	padding:1.5vw;
+}
+div.gamemess p{
+	font-size:3.8vw;
+	line-height:190%;
+	background:#fff;
+	margin:0;
+	padding:1vw;
+
+	-webkit-box-shadow:0 0.5vw 0.5vw #111;
+	   -moz-box-shadow:0 0.5vw 0.5vw #111;
+	        box-shadow:0 0.5vw 0.5px #111;
+}
+/*---------------------------------------*/
+/*---------------------------------------*/
+
+
+}

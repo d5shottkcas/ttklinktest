@@ -1,0 +1,463 @@
+﻿@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+body{
+
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width: 768px){
+div.base h2.catch{
+	font-size:8vw;
+	line-height:120%;
+	text-align:center;
+	background:url(../images/title.png) no-repeat top left,url(../images/title.png) no-repeat bottom right;
+	background-size:auto 200%;
+	margin:1vw 18vw;
+	padding:5vw 0 1.5vw 0;
+	display:block;
+}
+div.base p.catch{
+	font-family: 'Sawarabi Mincho';
+	font-size:4.8vw;
+	line-height:120%;
+	text-align:left;
+	margin:1vw 5vw;
+	display:block;
+	background:rgba(255,255,255,0.9);
+	border-radius:1.5vw;
+	padding:2vw 5vw;
+}
+div.member_list ul,
+div.member_list ol{
+	font-size:0;
+	list-style-type:none;
+	text-align:center;
+	margin:3vw 0;
+	padding:0;
+}
+div.member_list ul li,
+div.member_list ol li,
+div.member_list ul p{
+	font-size:4vw;
+	line-height:120%;
+	font-family: 'Sawarabi Mincho';
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #000,-1px 1px 1px #000;;
+	background:rgb(191,186,166);
+	border-radius:5vw;
+	padding:3vw 0;
+	margin:0.8vw;
+	border:0.3vw solid #000;
+	display:inline-block;
+	width:45vw;
+}
+div.tvsenshi_list ul li{width:30vw;}
+div.member_list ul br.pc{display:none;}
+
+
+
+
+
+div.base div.maga{
+	background:url(maga.jpg);
+	padding:5vw 0
+}
+div.base div.maga h2.catch{
+	font-size:20vw;
+	line-height:100%;
+	color:#fff;
+	text-shadow:0.4vw 0.4vw #000;
+	background:url(magatl.png) no-repeat center center;
+	background-size: auto 120%;
+	padding:2vw 0 5vw 0;
+}
+div.base div.maga h2.catch span{
+	font-size:5vw;
+	line-height:100%;
+}
+div.base div.maga div.member_list ul li span{
+	font-size:3.5vw;
+}
+/*---------------------------------------------*/
+/*--モーダルウィンドウ-------------------------*/
+/*---------------------------------------------*/
+div.base div.member_data div.member ul li{
+	font-family: 'Sawarabi Mincho';
+	text-align:left;
+	width:90%;
+	background:url(../images/bg2.jpg);
+	border-radius:3vw;
+	position:fixed;
+	display:none;
+	z-index:9999999;
+}
+div.base div.member_data div.member ul li img{
+	background:url(member.png) no-repeat;
+	background-size:699% 499%;
+	margin:0 auto;
+	width:55vw;
+	height:90vw;
+	display:block;
+}
+div.base div.maga div.member_data div.member ul li img{
+	background:url(magamaga.png) no-repeat;
+	background-size:300% 100%;
+	border-radius:3vw;
+
+}
+div.base div.member_data div.member ul li div{
+	margin:0;
+	background:url(../images/octopus_translucent.png) no-repeat center center;
+	background-size:auto 100%;
+	display:inline-block;
+	vertical-align:top;
+}
+div.base div.member_data div.member ul li div h1{
+	font-size:8vw;
+	text-align:center;
+	line-height:100%;
+	margin:0;
+}
+div.base div.member_data div.member ul li div h1 span{font-size:5vw;line-height:120%;}
+
+div.base div.member_data div.member ul li div p{
+	font-size:5vw;
+	text-align:justify;
+	line-height:130%;
+	margin:1vw 5vw;	
+}
+
+div.base div.member_data div.member ul li span.clause{
+	font-size:5vw;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+	background:rgb(0,0,0);
+	border:1px solid #000;
+	border-radius:0 0 3vw 3vw;
+	padding:2.5vw 0;
+	margin-top:3vw;19:46 2018/03/08
+	cursor:pointer;
+	display:block;
+}
+div.modal-overlay{
+	background-color:rgba(0,0,0,0.75);
+	z-index:999998;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+}
+
+
+
+div.base div.maga div.member_data div.member ul li{
+	font-family: 'Sawarabi Mincho';
+	text-align:left;
+	width:90%;
+	background:url(maga.jpg);
+	border-radius:3vw;
+	position:fixed;
+	display:none;
+	z-index:9999999;
+}
+div.base div.maga div.member_data div.member ul li.maga div{
+	color:#fff;
+	margin:0;
+	background-size:auto 100%;
+	display:inline-block;
+	vertical-align:top;
+}
+/****************************************/
+/*メンバービジュアル*********************/
+/****************************************/
+div.member_data div.member ul li#morimoridan_01 img{background-position:000% 000%;}
+div.member_data div.member ul li#morimoridan_02 img{background-position:016% 000%;}
+div.member_data div.member ul li#morimoridan_03 img{background-position:032% 000%;}
+div.member_data div.member ul li#morimoridan_04 img{background-position:049% 000%;}
+div.member_data div.member ul li#morimoridan_05 img{background-position:066% -0.3%;}
+div.member_data div.member ul li#morimoridan_06 img{background-position:083% -0.3%;}
+div.member_data div.member ul li#morimoridan_07 img{background-position:100% -0.3%;}
+
+div.member_data div.member ul li#tvsenshi_01 img{background-position:000000% 25%;}
+div.member_data div.member ul li#tvsenshi_02 img{background-position:000016% 25%;}
+div.member_data div.member ul li#tvsenshi_03 img{background-position:033.33% 25%;}
+div.member_data div.member ul li#tvsenshi_04 img{background-position:000050% 25%;}
+div.member_data div.member ul li#tvsenshi_05 img{background-position:000067% 25%;}
+div.member_data div.member ul li#tvsenshi_06 img{background-position:000083% 25%;}
+div.member_data div.member ul li#tvsenshi_07 img{background-position:099.99% 25%;}
+div.member_data div.member ul li#tvsenshi_08 img{background-position:000000% 50%;}
+div.member_data div.member ul li#tvsenshi_09 img{background-position:000016% 50%;}
+div.member_data div.member ul li#tvsenshi_10 img{background-position:033.33% 50%;}
+div.member_data div.member ul li#tvsenshi_11 img{background-position:000050% 50%;}
+div.member_data div.member ul li#tvsenshi_12 img{background-position:000067% 50%;}
+div.member_data div.member ul li#tvsenshi_13 img{background-position:000083% 50%;}
+
+div.member_data div.member ul li#research_01 img{background-position:000% 066.666%;}
+div.member_data div.member ul li#research_02 img{background-position:025% 066.666%;}
+div.member_data div.member ul li#research_03 img{background-position:050% 066.666%;}
+div.member_data div.member ul li#research_04 img{background-position:075% 066.666%;}
+div.member_data div.member ul li#research_05 img{background-position:100% 066.666%;}
+div.member_data div.member ul li#research_06 img{background-position:000% 083.333%;}
+
+div.member_data div.member ul li#reporter_01 img{background-position:000% 100.000%;}
+div.member_data div.member ul li#reporter_02 img{background-position:025% 100.000%;}
+
+
+
+div.member_data div.member ul li#maga_01 img{background-position:00% 000%;}
+div.member_data div.member ul li#maga_02 img{background-position:50% 000%;}
+div.member_data div.member ul li#maga_03 img{background-position:100% 000%;}
+/****************************************/
+/****************************************/
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+div.base h2.catch{
+	font-size:66px;
+	line-height:120%;
+	text-align:center;
+	background:url(../images/title.png) no-repeat top left,url(../images/title.png) no-repeat bottom right;
+	background-size:auto 200%;
+	margin:5px auto;
+	padding:15px 0 8px 0;
+	width:580px;
+	display:block;
+	text-shadow:2px 2px #eee;
+}
+div.base p.catch{
+	font-size:18px;
+	font-family: 'Sawarabi Mincho';
+	line-height:120%;
+	text-align:left;
+	font-weight:normal;
+	background:rgba(255,255,255,0.9);
+	border-radius:5px;
+	padding:10px 20px;
+	margin:5px auto;
+	width:580px;
+	display:block;
+	-webkit-box-shadow:0px 2px 1px #555;
+	   -moz-box-shadow:0px 2px 1px #555;
+	        box-shadow:0px 2px 1px #555;
+}
+div.member_list ul,
+div.member_list ol{
+	font-size:0;
+	list-style-type:none;
+	text-align:center;
+	margin:0 auto;
+	padding:25px 0 50px 0;
+	width:850px;
+}
+div.member_list ul li,
+div.member_list ol li,
+div.member_list ul p{
+	font-size:18px;
+	line-height:120%;
+	font-family: 'Sawarabi Mincho';
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #000,-1px 1px 1px #000;;
+	background:rgb(191,186,166);
+	border-radius:5px;
+	padding:10px 0;
+	margin:3px;
+	border:1px solid #000;
+	display:inline-block;
+	width:200px;
+	cursor:pointer;
+	transition-duration:0.1s;
+}
+div.member_list ol li{cursor:default;}
+
+div.tvsenshi_list ul li{width:155px;}
+div.member_list ul li:hover{
+	background:rgba(191,186,166,0.5);
+}
+div.member_list ul br.sp{display:none;}
+
+
+div.base div.maga{
+	background:url(maga.jpg);
+	padding:10px 0
+}
+div.base div.maga h2.catch{
+	line-height:100%;
+	background:url(magatl.png) no-repeat left center,url(magatl.png) no-repeat right center;
+	background-size:auto 120%;
+	padding:20px 0;
+	color:#fff;
+	text-shadow:2px 2px #000;
+}
+div.base div.maga h2.catch span{
+	line-height:100%;
+	font-size:20px;
+
+}
+div.base div.maga div.member_list ul li.maga,
+div.base div.maga div.member_list ul p.maga{
+	width:280px;
+}
+
+div.base div.maga div.member_list ul p.maga{cursor:default;}
+
+div.base div.maga div.member_list ul li span,
+div.base div.maga div.member_list ul p span{
+	font-size:15px;
+}
+/*---------------------------------------------*/
+/*--モーダルウィンドウ-------------------------*/
+/*---------------------------------------------*/
+div.base div.member_data div.member ul li{
+	text-align:left;
+	margin:5px;
+	padding:30px 25px;
+	width:750px;
+	background:url(../images/bg2.jpg);
+	border-radius:3px;
+	position:fixed;
+	display:none;
+	z-index:9999999;
+	box-shadow:10px 10px 10px #000;
+}
+div.base div.member_data div.member ul li img{
+	background:url(member.png) no-repeat;
+	margin:0 10px 0 0;
+	width:240px;
+	height:380px;
+	display:inline-block;
+/*
+	-webkit-box-shadow:2px 2px 1px #999,-2px -2px 1px #999,2px -2px 1px #999,-2px 2px 1px #999;
+	   -moz-box-shadow:2px 2px 1px #999,-2px -2px 1px #999,2px -2px 1px #999,-2px 2px 1px #999;
+	        box-shadow:2px 2px 1px #999,-2px -2px 1px #999,2px -2px 1px #999,-2px 2px 1px #999;
+*/
+}
+div.base div.member_data div.member ul li.maga img{
+	background:url(magamaga.png) no-repeat;
+}
+div.base div.member_data div.member ul li div{
+	font-family: 'Sawarabi Mincho';
+	margin:0;
+	background:url(../images/octopus_translucent.png) no-repeat center center;
+	width:495px;
+	height:380px;
+	display:inline-block;
+	vertical-align:top;
+}
+div.base div.member_data div.member ul li div h1{
+	font-size:40px;
+	text-align:center;
+	line-height:100%;
+	margin:5px 0 0 0;
+}
+div.base div.member_data div.member ul li div h1 span{font-size:25px;line-height:120%;}
+
+div.base div.member_data div.member ul li div p{
+	font-size:20px;
+	text-align:justify;
+	line-height:180%;
+	margin:30px 70px;	
+}
+div.base div.member_data div.member ul li span.clause{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+	margin-top:20px;
+	color:#fff;
+	background:rgba(0,0,0,0.5);
+	border:1px solid #000;
+	border-radius:3px;
+	cursor:pointer;
+	transition-duration:0.1s;
+	display:block;
+}
+div.base div.member_data div.member ul li span.clause:hover{
+	background:rgba(0,0,0,1);
+}
+div.modal-overlay{
+	background-color:rgba(0,0,0,0.75);
+	z-index:999998;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+}
+div.base div.member_data div.member ul li.maga{
+	text-align:left;
+	margin:5px;
+	padding:30px 25px;
+	width:750px;
+	background:url(maga.jpg);
+	border-radius:3px;
+	position:fixed;
+	display:none;
+	z-index:9999999;
+	box-shadow:10px 10px 10px #000;
+}
+div.base div.member_data div.member ul li.maga div{
+	font-family: 'Sawarabi Mincho';
+	margin:0;
+	padding:10px 0;
+	background:url(maga.png) no-repeat center bottom,rgba(255,255,255,0.5);
+	border-radius:8px;
+	width:495px;
+	height:360px;
+	display:inline-block;
+	vertical-align:top;
+	color:#fff;
+	text-Shadow:2px 2px #000;
+}
+/****************************************/
+/*メンバービジュアル*********************/
+/****************************************/
+div.member_data div.member ul li#morimoridan_01 img{background-position:-000px -000px;}
+div.member_data div.member ul li#morimoridan_02 img{background-position:-240px -000px;}
+div.member_data div.member ul li#morimoridan_03 img{background-position:-480px -000px;}
+div.member_data div.member ul li#morimoridan_04 img{background-position:-720px -000px;}
+div.member_data div.member ul li#morimoridan_05 img{background-position:-960px -000px;}
+div.member_data div.member ul li#morimoridan_06 img{background-position:-1200px -000px;}
+div.member_data div.member ul li#morimoridan_07 img{background-position:-1440px -000px;}
+
+div.member_data div.member ul li#tvsenshi_01 img{background-position:-0000px -380px;}
+div.member_data div.member ul li#tvsenshi_02 img{background-position:-0240px -380px;}
+div.member_data div.member ul li#tvsenshi_03 img{background-position:-0480px -380px;}
+div.member_data div.member ul li#tvsenshi_04 img{background-position:-0720px -380px;}
+div.member_data div.member ul li#tvsenshi_05 img{background-position:-0960px -380px;}
+div.member_data div.member ul li#tvsenshi_06 img{background-position:-1200px -380px;}
+div.member_data div.member ul li#tvsenshi_07 img{background-position:-1440px -380px;}
+
+div.member_data div.member ul li#tvsenshi_08 img{background-position:-0000px -760px;}
+div.member_data div.member ul li#tvsenshi_09 img{background-position:-0240px -760px;}
+div.member_data div.member ul li#tvsenshi_10 img{background-position:-0480px -760px;}
+div.member_data div.member ul li#tvsenshi_11 img{background-position:-0720px -760px;}
+div.member_data div.member ul li#tvsenshi_12 img{background-position:-0960px -760px;}
+div.member_data div.member ul li#tvsenshi_13 img{background-position:-1200px -760px;}
+/*
+div.member_data div.member ul li#research_01 img{background-position:-0000px -1125px;}
+div.member_data div.member ul li#research_02 img{background-position:-0190px -1125px;}
+div.member_data div.member ul li#research_03 img{background-position:-0380px -1125px;}
+div.member_data div.member ul li#research_04 img{background-position:-0570px -1125px;}
+div.member_data div.member ul li#research_05 img{background-position:-0760px -1125px;}
+div.member_data div.member ul li#research_06 img{background-position:-0950px -1125px;}
+
+div.member_data div.member ul li#reporter_01 img{background-position:-0000px -1500px;}
+div.member_data div.member ul li#reporter_02 img{background-position:-0190px -1500px;}
+*/
+
+
+
+div.member_data div.member ul li#maga_01 img{background-position:-000px -000px;}
+div.member_data div.member ul li#maga_02 img{background-position:-240px -000px;}
+div.member_data div.member ul li#maga_03 img{background-position:-480px -000px;}
+/****************************************/
+/****************************************/
+}

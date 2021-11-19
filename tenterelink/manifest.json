@@ -1,0 +1,14 @@
+{
+    "lang": "ja",
+    "name": "天てれリンク",
+    "short_name": "天てれリンク",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#555555",
+    "icons": [{
+        "src": "sozai/tenterelink192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }]
+}

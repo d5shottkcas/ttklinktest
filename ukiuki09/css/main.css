@@ -1,0 +1,722 @@
+﻿body{
+	line-height:1.4;
+	color:#000000;
+	font-family:Arial, sans-serif, "“ＭＳ Ｐゴシック”";
+	margin:0;
+	padding:0;
+}
+
+.hidden {
+display: none;
+visibility: hidden;
+}
+
+.clear {
+clear: both;
+}
+
+.clearfix:after { 
+display: block; 
+clear: both; 
+height: 0; 
+visibility: hidden; 
+content: "."; 
+line-height: 0; 
+}
+
+.clearfix { 
+display: inline-table; 
+min-height: 1%; 
+}
+ 
+/* for macIE \*/ 
+
+* html .clearfix { 
+height: 1%; 
+}
+
+.clearfix { 
+display: block; 
+} 
+/* end of for macIE */
+
+
+/*-------メイン----------*/
+#uki_base{
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#uki_fla{
+	width:829px;
+	height:281px;
+	margin-left:12px;
+	margin-bottom:0px;
+}
+
+#uki_base #none{
+	width:12px;
+	height:165px;
+	float:left;
+}
+
+#uki_base #blog{
+	width:399px;
+	height:165px;
+	background-image:url("../images/blog.gif");
+	padding:28px 0 0 14px;
+	margin-right:19px;
+	float:left;
+}
+
+#uki_base #blog #box{
+	width:373px;
+	height:159px;
+	overflow: auto; 
+}
+
+/*------------kstyle_s------------*/
+
+#uki_base #blog #box h1{
+	width:330px;
+	font-size:13px;
+	color:#FFF;
+	padding:2px;
+	margin:3px;
+}
+
+#uki_base #blog #box h1.head01{
+	background-color:rgb(255,102,204);
+}
+
+#uki_base #blog #box h1.head02{
+	background-color:rgb(51,204,153);
+}
+
+#uki_base #blog #box h1.head03{
+	background-color:rgb(255,102,00);
+}
+
+#uki_base #blog #box h1.head04{
+	background-color:rgb(254,174,1);
+}
+
+#uki_base #blog #box h1.head05{
+	background-color:rgb(204,102,255);
+}
+
+/*------------kstyle_e------------*/
+
+#uki_base #blog #box p{
+	width:330px;
+	font-size:12px;
+	color:#000;
+	padding:8px;
+	margin:0px;
+}
+
+#uki_base #blog #box br{
+	width:0px;
+}
+
+/* astyle add */
+div#blog div#box hr{
+	border: 0px;
+	border-top: 1px dashed #000000;
+	height: 1px;
+	margin-left: 4px;
+	margin-right: 22px;
+}
+/* end astyle add */
+
+#uki_base #banar{
+	width:381px;
+	height:173px;
+	margin-top:20px;
+	float:left;
+	background-image:url("../images/banar_base.gif");
+}
+
+#uki_base #banar #btns{
+	width:184px;
+	height:32px;
+	padding:20px 1px 0px 4px;
+	float:left;
+}
+
+#uki_base #banar #btns img{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	font-size:1px;
+}
+
+
+#uki_base #copywrite{
+
+	padding:14px;
+	clear:both;
+}
+
+
+#uki_base #copywrite p{
+	color:#FFFFFF;
+	margin:0px auto 0 auto;
+	padding:3px;
+	font-size:12px;
+	text-align:center;
+}
+
+#uki_base #copywrite p a{
+	color:#FFFFFF;
+}
+
+/*----------------お便り--------------*/
+
+#uki_base #otayori{
+	width:746px;
+	height:186px;
+	margin-left:52px;
+	background-image:url("../images/otayori.gif");
+}
+
+
+#uki_base #otayori_box{
+	width:800px;
+	margin-left:25px;
+	margin-top:40px;
+}
+
+#uki_base #otayori_box #images{
+	width:160px;
+	text-align:center;
+	color:#FFF;
+	margin-bottom:20px;
+	float:left;
+}
+
+#uki_base #otayori_box #images p{
+	margin:0 0 3px 0;
+	padding:0px;
+	font-size:9px;
+}
+
+#uki_base #otayori_box #images img{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+#uki_base #otayori_box #back_btn{
+	width:41px;
+	height:41px;
+	float:right;
+	margin:15px 5px 0 0;
+}
+
+
+/*----------------ひがわり--------------*/
+
+#higawari_base{
+	width:500px;
+	margin:13px auto 13px auto;
+}
+
+
+#higawari_base #h_title{
+	width:500px;
+	height:37px;
+	background-image:url("../images/higawari_title.gif");
+}
+
+#higawari_base #h_title02{
+	width:500px;
+	height:49px;
+	background-image:url("../images/museum_no1.gif");
+}
+
+#higawari_base h1{
+	color:#FFF;
+	font-size:14px;
+	margin:7px;
+	text-align:center;
+}
+
+#higawari_base #days{
+	width:500px;
+	height:345px;
+	margin-bottom:10px;
+	background-image:url("../images/higawari.jpg");
+}
+
+#higawari_base #days2{
+	width:500px;
+	height:300px;
+	margin-bottom:100px;
+	background-image:url("../images/higawari.jpg");
+}
+
+
+#higawari_base #box_top{
+	width:500px;
+	height:4px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../images/h_text_top.gif");
+}
+
+/*--------kstyle_s-------*/
+
+#higawari_base #box_base{
+	width:500px;
+	padding:1px 0px 1px 0px;
+	background-image:url("../images/h_text_base.gif");
+}
+
+/*--------kstyle_e-------*/
+
+#higawari_base #box_base p{
+	text-align:center;
+	font-size:14px;
+	width:480px;
+	margin:10px;
+}
+
+
+#higawari_base #box_bottom{
+	width:500px;
+	height:4px;
+	padding:0px;
+	font-size:1px;
+	margin:0px;
+	background-image:url("../images/h_text_bottom.gif");
+}
+
+#higawari_base #copywrite{
+	margin-top:15px;
+	clear:both;
+}
+
+
+#higawari_base #copywrite p{
+	color:#FFFFFF;
+	margin:5px auto 0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#higawari_base #copywrite p a{
+	color:#FFFFFF;
+}
+
+
+/*---------------ポップタイトル----------*/
+
+#uki_pop{
+	width:346px;
+	margin:10px auto 10px auto;
+}
+
+#uki_pop #top{
+	width:346px;
+	height:8px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../images/pop_top.gif");
+}
+
+#uki_pop #back{
+	width:346px;
+	background-image:url("../images/pop_back.gif");
+	padding:10px 0 8px 0;
+    min-height:350px;
+	_height:350px;
+}
+
+#uki_pop #back #pop_title{
+	width:174px;
+	height:112px;
+	background-image:url("../images/pop_title.gif");
+	margin:10px 0 10px 88px;
+}
+
+
+
+#uki_pop #back h1{
+	width:300px;
+	margin:0px 8px 4px 16px;
+	font-size:16px;
+	background-color:#FFFF99;
+	color:#000;
+	padding:5px;
+}
+
+#uki_pop #back p{
+	width:300px;
+	margin:4px 14px 0px 22px;
+	font-size:14px;
+	color:#000;
+}
+
+#uki_pop #back hr{
+	border: 0px;
+	border-top: 1px dashed #000000;
+	height: 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+}	
+
+
+#uki_pop #back .cred{
+	color:#FF0000;
+}
+
+
+#uki_pop #bottom{
+	width:346px;
+	height:8px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../images/pop_bottom.gif");
+}
+
+#uki_pop #copywrite{
+	margin-top:15px;
+	clear:both;
+}
+
+
+#uki_pop #copywrite p{
+	color:#FFFFFF;
+	margin:5px auto 0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#uki_pop #copywrite p .cred{
+	color:red;
+}
+
+#uki_pop #copywrite p a{
+	color:#FFFFFF;
+}
+
+
+/*----------料理---------*/
+#blog_base{
+	width:500px;
+	margin:13px auto 13px auto;
+}
+
+#blog_base #h_title{
+	width:500px;
+	height:37px;
+	background-image:url("../blog/ryouri_title.gif");
+}
+
+#blog_base #h_title2{
+	width:500px;
+	height:0px;
+
+}
+
+
+#blog_base h1{
+	color:#FFF;
+	font-size:14px;
+	margin:7px;
+	text-align:center;
+}
+
+#blog_base #images{
+	width:500px;
+	height:345px;
+	margin-bottom:10px;
+}
+
+#blog_base #images img{
+	border:0;
+	margin:0;
+}
+
+
+#blog_base #box_top{
+	width:500px;
+	height:4px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../blog/ryouri_text_top.gif");
+}
+
+#blog_base #box_base{
+	width:500px;
+	padding:1px 0px 1px 0px;
+	background-image:url("../blog/ryouri_text_base.gif");
+}
+
+#blog_base #box_base p{
+	text-align:center;
+	font-size:12px;
+	width:480px;
+	margin:10px;
+}
+
+
+#blog_base #box_bottom{
+	width:500px;
+	height:4px;
+	padding:0px;
+	font-size:1px;
+	margin:0px;
+	background-image:url("../blog/ryouri_text_bottom.gif");
+}
+
+#blog_base #copywrite{
+	margin-top:5px;
+	clear:both;
+}
+
+
+#blog_base #copywrite p{
+	color:#FFFFFF;
+	margin:5px auto 0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#blog_base #copywrite p a{
+	color:#FFFFFF;
+}
+
+
+#blog_base
+#box_base
+ul {
+	width:440px;
+	margin: 0 0 0 20px;
+	padding: 0 5px 0 13px;
+	border: 1px solid #CCCCCC;
+	list-style-type: none;
+	background-color: #ffccff;
+}
+
+#blog_base
+#box_base
+ul
+li {
+	margin: 4px 10px 4px 10px;
+	text-indent: -1em;
+	font-size:12px;
+}
+
+
+.b_down{
+	font-size:10px;
+	color:#FF0000;
+}
+
+
+/*---------過去日記------*/
+#uki_kako{
+	width:346px;
+	margin:10px auto 10px auto;
+}
+
+#uki_kako #top{
+	width:346px;
+	height:8px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../images/pop_top.gif");
+}
+
+#uki_kako #back{
+	width:346px;
+	background-image:url("../images/pop_back.gif");
+	padding:10px 0 8px 0;
+    min-height:250px;
+	_height:250px;
+}
+
+#uki_kako #back #pop_title{
+	width:174px;
+	height:112px;
+	background-image:url("../images/pop_title.gif");
+	margin:10px 0 10px 88px;
+}
+
+
+
+#uki_kako #back h1{
+	width:300px;
+	margin:0px 8px 4px 16px;
+	font-size:16px;
+	background-color:#FFFF99;
+	color:#000;
+	padding:2px;
+	text-align:center;
+}
+
+#uki_kako #back p{
+	width:300px;
+	height:auto;
+	margin:2px 14px 2px 22px;
+	font-size:14px;
+	color:#000;
+	text-align:center;
+}
+
+#uki_kako #back p a{
+	background-color:#FF9999;
+	color:black;
+	padding:2px 16px 2px 16px;
+	text-decoration:none;
+}
+
+#uki_kako #back p a:hover{
+	background-color:#FFCC00;
+	color:#FF0000;
+}
+
+#uki_kako #back hr{
+	border: 0px;
+	border-top: 1px dashed #000000;
+	height: 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size:1px;
+	line-height: 0;
+}	
+
+
+#uki_kako #back .cred{
+	color:#FF0000;
+}
+
+
+#uki_kako #bottom{
+	width:346px;
+	height:8px;
+	padding:0px;
+	margin:0px;
+	font-size:1px;
+	background-image:url("../images/pop_bottom.gif");
+}
+
+#uki_kako #copywrite{
+	margin-top:15px;
+	clear:both;
+}
+
+
+#uki_kako #copywrite p{
+	color:#FFFFFF;
+	margin:5px auto 0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#uki_kako #copywrite p .cred{
+	color:red;
+}
+
+#uki_kako #copywrite p a{
+	color:#FFFFFF;
+}
+
+#backnumber{
+	width:413px;
+	margin:10px auto 10px auto;
+}
+
+#backnumber #blog{
+	width:399px;
+	height:165px;
+	background-image:url("../images/blog.gif");
+	padding:28px 0 0 14px;
+	float:left;
+}
+
+#backnumber #blog #box{
+	width:373px;
+	height:159px;
+	overflow: auto; 
+}
+
+
+#backnumber #blog #box h1{
+	width:330px;
+	font-size:13px;
+	color:#FFF;
+	padding:2px;
+	margin:3px;
+}
+
+#backnumber #blog #box h1.head01{
+	background-color:rgb(255,102,204);
+}
+
+#backnumber #blog #box h1.head02{
+	background-color:rgb(51,204,153);
+}
+
+#backnumber #blog #box h1.head03{
+	background-color:rgb(255,102,00);
+}
+
+#backnumber #blog #box h1.head04{
+	background-color:rgb(254,174,1);
+}
+
+#backnumber #blog #box h1.head05{
+	background-color:rgb(204,102,255);
+}
+
+
+#backnumber #blog #box p{
+	width:330px;
+	font-size:12px;
+	color:#000;
+	padding:8px;
+	margin:0px;
+}
+
+#backnumber #blog #box br{
+	width:0px;
+}
+
+div#backnumber div#blog div#box hr{
+	border: 0px;
+	border-top: 1px dashed #000000;
+	height: 1px;
+	margin-left: 4px;
+	margin-right: 22px;
+}
+
+#backnumber #copywrite{
+	padding-top:15px;
+	clear:both;
+}
+
+
+#backnumber #copywrite p{
+	color:#FFFFFF;
+	margin:5px auto 0 auto;
+	font-size:12px;
+	text-align:center;
+}
+
+#backnumber #copywrite p a{
+	color:#FFFFFF;
+}
+
+
+
+

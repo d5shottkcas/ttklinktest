@@ -1,0 +1,7 @@
+h7 {
+    background: #f072d7;
+    box-shadow: 0px 0px 0px 5px #f072cc;
+    border: dashed 1px #e7ec47;
+    padding: 0.2em 0.5em;
+    color: #313131;
+}

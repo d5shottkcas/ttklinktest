@@ -1,0 +1,54 @@
+@charset "euc-jp";
+
+/*	
+	Plugin Module HTML CSS Selectors
+	Version : 1.0
+*/
+
+div.yjplg{
+	padding:0.5em;
+	background:#eeeeee;
+	border:double 3px #DDDDDD;
+	min-height:31px;}
+	/* \*/
+	*html div.yjplg{
+	height:31px;
+	clear:right;}
+	/**/
+div.yjplg p{
+	margin:0em;
+	padding:0em;}
+div.yjplg table{
+	margin:0;
+	padding:0;
+	width:100%;}
+div.yjplg img{
+	border:0em;
+	width:88px;
+	height:31px;}
+div.yjplg table tr td img{
+	border:0;}
+
+div.yjplg div.icn-h{
+	float:right;}
+div.yjplg div.icn-h img{
+	margin-left:0.5em;}
+div.yjplg table td.icn-h{
+	width:93px;}
+div.yjplg .icn-v{
+	text-align:center;}
+div.yjplg .icn-v img,
+div.yjplg .icn-v a.yj-txt{
+	margin:0 0.25em 0.25em 0.25em;}
+div.yjplg .yj-txt a{
+	text-align:center;
+	background-color:#FFFFFF;
+	white-space:nowrap;
+	width:12em;
+	padding:0.5em;
+	margin:0.5em;
+	border:1px solid #CCCCCC;}
+body:last-child div.yjplg td.yj-txt{
+	padding:0.5em 0em 1em 0em;}
+body:last-child div.yjplg div.yj-txt{
+	padding:0.5em 0em 1em 0em;}

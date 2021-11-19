@@ -1,0 +1,1373 @@
+﻿
+/*!共通*/
+
+body { 
+text-align: center; 
+font-family: sans-serif; 
+  padding-top: 54px;
+}
+
+a { color: #ffa500; }
+a:hover { color: #ff8c00; }
+
+.size1 { font-size: 10px; } 
+.size2 { font-size: 12px; } 
+.size3 { font-size: 14px; } 
+.size4 { font-size: 16px; } 
+.size5 { font-size: 19px; } 
+.size6 { font-size: 24px; } 
+.size7 { font-size: 32px; } 
+
+.text-white { color: #ffffff; }
+.text-ff8c00 { color: #ff8c00; }
+.text-blue { color: #0000ff; }
+.text-green { color: #009900; }
+.text-red { color: #ff0033; }
+.text-pink { color: #ff00ff; }
+.text-555555 { color: #555555;}
+.text-orange { color: #ffa500; }
+.text-purple { color: #9400d3; }
+
+.bg-orange { 
+  background-color: #ffa500;
+ }
+.bg-green  { 
+  background-color: #00ff00;
+ }
+.bg-yellow  { 
+  background-color: #ffff80; 
+ }
+.bg-white { 
+  background-color: #ffffff; 
+ }
+
+.navbar-navi { 
+  background-color: #ffa500;
+  color: #555555;
+}
+
+.navbar-navi a { 
+  color: #555555;
+}
+
+.navbar-navi a:hover { 
+  color: #ffffff;
+}
+
+.navbar-navi .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-navi .btn-title {
+    color: #ffa500;
+    background-color: #555555;
+    border-color: #555555;
+  }
+  
+.navbar-navi .btn-title:hover {
+    color: #ffa500;
+    background-color: #666666;
+    border-color: #555555;
+  }
+
+.navbar-navi .btn-title a {
+    display:block;
+    color: #ffa500;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  
+.navbar-navi .btn-title a:hover {
+    color: #ffa500;
+    text-decoration: underline;
+  }
+
+.nav-item { font-size: 14px;}
+
+.nav-item .tl { font-size: 12px;}
+
+
+.ins_ad { display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  }
+
+
+div.smenu ul.smenu { 
+    list-style-type: none; 
+    margin: 0 auto; 
+    padding: 0; 
+  }
+
+div.smenu li.smenu { 
+    margin-right: 2px; 
+    margin-left: 2px; 
+    margin-bottom: 5px; 
+    background-color: #ffcc66; 
+    font-weight: bold; 
+    text-align: center; 
+    border-radius: 10px;
+    border: #555555 solid 2px; 
+    width: 100%; 
+    height: 40px; 
+    line-height: 35px; 
+  }
+    
+    
+li.smenu a { 
+      text-decoration: none; 
+      display: block; 
+      color: #555555; 
+    width: 100%; 
+    height: 100%; 
+  }
+li.smenu a:hover { 
+      background-color: #555555; 
+      color: #ffa500; 
+      width: 100%; 
+      height: 100%; 
+    }
+
+h1.pagetitle { 
+  font-size: 19px; 
+  color: #ffa500; 
+  background-color: #555555; 
+  margin: 0 0 15px 0; 
+  padding: 8px 10px; 
+  border-radius: 10px; 
+}
+
+h2.explan {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+
+.h2-orange { 
+  border-bottom: #555555 2px solid;
+  border-radius: 10px; 
+  background-color: #ffcc66;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
+
+.h2-grey { 
+  border-bottom: #555555 2px solid;
+  border-radius: 10px; 
+  background-color: #f4f4f4;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+  padding: 5px;
+}
+
+.h2-border { 
+  border-bottom: #555555 1px solid;
+  font-size: 20px;
+}
+
+
+table { 
+  background-color: #ffffff;
+}
+
+table.table-bordered th,
+table.table-bordered td {
+  border: 2px solid #ffa500 !important;
+  padding: 0;
+  }
+
+table.bace th,
+table.bace td { 
+  border: 2px solid #555555 !important;
+  padding: 1px 5px 1px 5px;
+  background-color: #ffcc66; 
+  vertical-align: middle;
+  }
+
+th.th-y { 
+  background-color: #555555 !important; 
+  color: #ff8c00 !important; 
+  font-size: 19px; } 
+  
+th.th-i {
+  background-color: #ffa500 !important;
+  color: #555555;
+  font-weight: 400;
+  }
+
+.wh-bd-none th.th-white { 
+  background-color: #ffffff !important; 
+  color: #555555; 
+  font-size: 19px; 
+  text-align: left;
+  border: none !important;
+  padding: 2px 0 2px 3px;
+  } 
+
+
+
+
+.w320 {
+  width: 320px;
+} 
+
+.w280 {
+  width: 280px;
+}  
+
+.w250 {
+  width: 250px;
+}   
+
+.w200 {
+  width: 200px;
+}
+
+.w190 {
+  width: 190px;
+}   
+
+.w160 {
+  width: 160px;
+} 
+
+.w150 {
+  width: 150px;
+}   
+
+.w70 {
+  width: 70px;
+}
+
+.w30 {
+  width: 30px;
+}
+
+.w65p {
+  width: 65%;
+}
+
+.w60p {
+  width: 60%;
+}
+
+.w50p {
+  width: 50%;
+}
+
+.w40p {
+  width: 40%;
+}
+
+.w30p {
+  width: 30%;
+}
+
+.w20p {
+  width: 20%;
+}
+
+.w10p {
+  width: 10%;
+}
+
+.w5p {
+  width: 5%;
+}
+
+
+.button { 
+  border: #ffa500 2px solid;
+  background-color: #ffa500;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.button a { 
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  color: #ffffff;
+  text-decoration: none; 
+  border-radius: 10px;
+}
+
+.button a:hover {
+  color: #ffa500;
+  background-color: #ffffff;
+  width: 100%; 
+  height: 100%; 
+}
+
+.admar {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+/*!トップページ*/
+
+div.title {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #555555;
+  border-radius: 10px; 
+}
+
+h1.sitetitle { 
+  font-size: 50px; 
+  color: #ffcc66; 
+  font-family: monospace; 
+  text-shadow: #ff8c00 1px 1px 2px, #ff8c00 -1px 1px 2px, 
+                 #ff8c00 1px -1px 2px, #ff8c00 -1px -1px 2px; 
+  padding: 0px; 
+  margin: 20px 0px 10px 0px;
+}
+
+.subtitle { 
+  color: #ffa500; 
+  font-size: 20px; 
+  padding: 0px; 
+  margin: 10px 0px 20px 0px;
+}
+
+.counter {padding: 5px 0 0 0;}
+
+h2.top { 
+  font-size: 14px;
+  text-align: left;
+}
+
+.info { 
+  border: dotted; 
+  border-color: #ffa500; 
+  text-align: left; 
+  background-color: #eeeeee; 
+  margin: 10px 0; 
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px; 
+}
+
+h3.tvslist { 
+  font-size: 16px;; 
+  text-align: center; 
+  color: #ffa500; 
+  background-color: #555555; 
+  padding: 10px 0;
+  border-radius: 10px; 
+}
+
+
+div.tvs { 
+  width: 100%; 
+  font-size: 16px; 
+  margin: 0 auto; 
+}
+
+div.tvs ul.tvs { 
+  list-style-type: none; 
+  margin: 0 auto; 
+  padding: 0; 
+}
+
+div.tvs li.tvsb { 
+  margin-right: 2px; 
+  margin-left: 2px; 
+  float: left; 
+  margin-bottom: 5px; 
+background-color: #ffffff; 
+text-align: center; 
+font-weight: bold; 
+border-radius: 10px;
+border: #1e90ff double; 
+width: 24%; 
+height: 40px; 
+line-height: 40px; 
+}
+
+div.tvs li.tvsg { 
+  margin-right: 2px; 
+  margin-left: 2px; 
+  float: left; 
+  margin-bottom: 5px; 
+background-color: #ffffff; 
+text-align: center; 
+font-weight: bold; 
+border-radius: 10px;
+border: #ffa500 double; 
+width: 24%; 
+height: 40px; 
+line-height: 40px; 
+}
+
+div.tvs li.tvsb a { 
+  text-decoration: none; 
+  display: block; 
+  border-radius: 10px; 
+  color: #0000ff;
+width: 100%; 
+height: 100%; 
+}
+div.tvs li.tvsb a:hover { 
+  background-color: #ddffff; 
+  width: 100%; 
+  height: 100%; 
+}
+
+div.tvs li.tvsg a { 
+  text-decoration: none; 
+  display: block; 
+  border-radius: 10px; 
+  color: #ff00ff;
+width: 100%; 
+height: 100%; 
+}
+div.tvs li.tvsg a:hover { 
+  background-color: #ffe0eb; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.search {padding: 20px 0;}
+
+h3.news { 
+  font-size: 16px;; 
+  text-align: center; 
+  color: #ffa500; 
+  background-color: #555555; 
+  padding: 10px 0;
+  border-radius: 10px; }
+
+
+
+/*!プロフィール*/
+
+h2.profile {
+  color: #009900;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+table.prof-n { width: 773px; }
+
+table.prof-n td { padding: 0 5px; }
+
+th.prof-h { background-color: #ffcc66; }
+
+th.prof-boy a { 
+  background-color: #ffffff; 
+  display: block; 
+  width: 200px; 
+  height: 25px; 
+  color: #0000ff; 
+  line-height: 25px; 
+}
+
+th.prof-boy a:hover { 
+  background-color: #ddffff; 
+  color: #0000ff; 
+  width: 200px; 
+  height: 25px; 
+}
+
+th.prof-girl a { 
+  background-color: #ffffff; 
+  display: block; 
+  width: 200px; 
+  height: 100%; 
+  color: #ff00ff; 
+  line-height: 25px; 
+}
+
+th.prof-girl a:hover { 
+  background-color: #ffe0eb; 
+  color: #ff00ff; 
+  width: 200px; 
+  height: 100%; 
+}
+
+.prof-red { color: #ff0000; }
+
+.prof-green { color: #009900; }
+
+.prof-orange { color: #ffa500; }
+
+.prof-purple { color: #9400d3; }
+
+.prof-yellow { color: #ffdd00; }
+
+.prof-lime { color: #00ff00; } 
+
+.prof-pink { color: #ff00ff; }
+
+.prof-blue { color: #0000ff; }
+
+
+
+/*!歴代てれび戦士一覧*/
+
+.of-hid {
+  overflow: hidden;
+}
+
+.of-hid table th,
+.of-hid table td{
+  vertical-align: middle !important;
+}
+
+.div-scroll { display: block; }
+#tvsenshi-list { overflow-x:scroll; }
+#tvsenshi-list table { width: 1800px; }
+
+.wsn { white-space: nowrap; }
+
+table.year-th tr {
+  height: 27px;
+}   
+
+th.bg-yellow-boy a { 
+          text-decoration: none; 
+          display: block; 
+          background-color: #ffff80; 
+          width: 100%; 
+          height: 25px; 
+          color: #000000; 
+          }
+th.bg-yellow-boy a:hover { 
+          background-color: #ddffff; 
+          color: #0000ff; 
+          width: 100%; 
+          height: 25px; 
+          }
+th.bg-white-boy a { 
+          text-decoration: none; 
+          display: block; 
+          background-color: #ffffff; 
+          width: 100%; 
+          height: 25px; 
+          color: #000000; 
+          }
+th.bg-white-boy a:hover { 
+          background-color: #ddffff; 
+          color: #0000ff; 
+          width: 100%; 
+          height: 25px; 
+          }
+
+
+th.bg-yellow-girl a { 
+          text-decoration: none; 
+          display: block; 
+          background-color: #ffff80; 
+          width: 100%; 
+          height: 25px; 
+          color: #000000; 
+          }
+th.bg-yellow-girl a:hover { 
+          background-color: #ffe0eb; 
+          color: #ff00ff; 
+          width: 100%; 
+          height: 25px; 
+          }
+th.bg-white-girl a { 
+          text-decoration: none; 
+          display: block; 
+          background-color: #ffffff; 
+          width: 100%; 
+          height: 25px; 
+          color: #000000; 
+          }
+th.bg-white-girl a:hover { 
+          background-color: #ffe0eb; 
+          color: #ff00ff; 
+          width: 100%; 
+          height: 25px; 
+          }
+
+.text-c0c0c0 { color: #c0c0c0; } 
+
+.bg-ffffcc { background-color: #ffffcc; }
+
+.shikai {
+  height: 100px;
+}
+
+.mokunama-shikai {
+  height: 90px;
+}
+
+
+
+/*!てれび戦士*/
+
+h1.gl { text-align: left; font-size: x-large; color: #ff00ff; 
+  background-color: #ffd5ea; 
+  margin: 0; 
+  padding: 5px 10px; } 
+h1.bo { text-align: left; font-size: x-large; color: #0000ff; 
+  background-color: #d5d5ff; 
+  margin: 0; 
+  padding: 5px 10px; } 
+  
+p.gl { text-align: left; color: #ff00ff; font-size: medium; font-weight: bold;
+  border-bottom: 1px #ff00ff solid; 
+  margin: 0;
+  padding: 1px 0 1px 10px; } 
+p.bo { text-align: left; color: #0000ff; font-size: medium; font-weight: bold;
+  border-bottom: 1px #0000ff solid; 
+  margin: 0;
+  padding: 1px 0 1px 10px; } 
+
+table.tvsprof { 
+    background-color: #aaaaaa; 
+    width: 100%; 
+    font-size: medium; 
+   }
+
+.tvsprof th,
+.tvsprof td { border: #aaaaaa 2px solid; }
+.tvsprof th { background-color: #efefef; }
+.tvsprof td { background-color: #ffffff; text-align: center; }
+
+
+/*!公式サイト*/
+
+div.row div.official { 
+  background-color: #eeeeee; 
+}
+
+h4.official {
+  font-size: 1.25rem;
+}
+
+h5.official {
+  font-size: 1rem;
+}
+
+p.official {
+  font-size: 1rem;
+}
+
+div.card-official { 
+  border: 1px #555555 solid;
+}
+
+
+
+
+/*!天てれ資料室*/
+
+div.ttkdata ul.ttkdata { 
+  list-style-type: none; 
+  margin: 0 auto; 
+  padding: 0; 
+}
+
+div.ttkdata li.ttkdata { 
+  margin-right: 2px; 
+  margin-left: 2px; 
+  margin-bottom: 5px; 
+  background-color: #ffcc66; 
+  font-weight: bold; 
+  font-size: 12px;
+  text-align: center; 
+  border-radius: 10px;
+  border: #555555 solid 2px; 
+  width: 24%; 
+  height: 40px; 
+  line-height: 35px; 
+  float: left; 
+}
+  
+  
+li.ttkdata a { 
+    text-decoration: none; 
+    display: block; 
+    color: #555555; 
+  width: 100%; 
+  height: 100%; 
+}
+
+li.ttkdata a:hover { 
+    background-color: #555555; 
+    color: #ffa500; 
+    width: 100%; 
+    height: 100%; 
+  }
+
+
+/*!年度別データ*/
+
+table.ttkdata { 
+  width: 100%; 
+  font-size: 14px;
+}
+
+table.ttkdata th { 
+  background-color: #ffff99; 
+  border: #cc00ff 2px solid;
+  text-align: center;
+  vertical-align: middle; 
+}
+
+table.ttkdata td { 
+  background-color: #ffffff; 
+  border: #cc00ff 2px solid;
+  text-align: left; 
+  vertical-align: top; 
+  padding: 5px 0 5px 5px; 
+}
+
+table.ttkdata td.ttkdata { 
+  background-color: #ffffcc; 
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+table.ttkdata td.ttkdatay { 
+  background-color: #ffff99; 
+  text-align: center; 
+  vertical-align: middle; 
+}
+
+table.ttkdata ul { 
+  padding-left: 0;
+  list-style: none; 
+}
+
+table.ttkdata td.tendr { 
+  background-color: #ffcccc; 
+}
+
+table.ttkdata td.ttkstr { 
+  background-color: #ffcc66; 
+}
+
+table.ttkdata td.bg-red { 
+  background-color: #ff0033; 
+}
+
+table.ttkdata td.bg-green { 
+  background-color: #00cc00; 
+}
+
+table.ttkdata td.bg-orange { 
+  background-color: #ffcc66; 
+}
+
+table.ttkdata td.bg-violet { 
+  background-color: #9999ff; 
+}
+
+
+/*!MTK*/
+
+table.mtktable {
+  width: 773px;
+  background-color: #ffcc66;
+}
+
+.table-bordered-mtk th,
+.table-bordered-mtk td {
+  border: 2px solid #555555 !important;
+  padding: 0;
+  vertical-align: middle;
+  }
+
+table.mtktable .mtk-solo { 
+  font-weight: bold;
+  color: #0000ff;
+}
+
+table.mtktable .mtk-unit { 
+  font-weight: bold;
+  color: #555555;
+}
+
+table.mtk-ranking {
+  width: 350px;
+  background-color: #ffcc66;
+}
+
+
+
+/*!イベント*/
+
+table.eventtable {
+
+  background-color: #ffcc66;
+}
+
+.table-bordered-event th,
+.table-bordered-event td {
+  border: 2px solid #555555 !important;
+  padding: 0;
+  vertical-align: middle;
+  }
+
+
+
+/*!天てれアニメ*/
+
+div.ttk-anime ul.ttk-anime { 
+  list-style-type: none; 
+  margin: 0 auto; 
+  padding: 0; 
+}
+
+div.ttk-anime li.ttk-anime { 
+  margin-right: 2px; 
+  margin-left: 2px; 
+  margin-bottom: 5px; 
+  background-color: #ffcc66; 
+  font-weight: bold; 
+  font-size: 12px;
+  text-align: center; 
+  border-radius: 10px;
+  border: #555555 solid 2px; 
+  width: 32%; 
+  height: 40px; 
+  line-height: 35px; 
+  float: left; 
+}
+  
+  
+li.ttk-anime a { 
+    text-decoration: none; 
+    display: block; 
+    color: #555555; 
+  width: 100%; 
+  height: 100%; 
+}
+
+li.ttk-anime a:hover { 
+    background-color: #555555; 
+    color: #ffa500; 
+    width: 100%; 
+    height: 100%; 
+  }
+
+table.anime th,
+table.anime td { 
+  border: 2px solid #555555 !important;
+  padding: 1px 1px 1px 5px;
+  background-color: #ffcc66; 
+  }
+
+
+/*!CGキャラ*/
+
+.table-bordered-cg th,
+.table-bordered-cg td {
+  border: 2px solid #555555 !important;
+  padding: 10px;
+  vertical-align: middle;
+  }
+
+
+/*!放送一覧*/
+
+table.allcast td {
+  border: 2px solid #ff6600 !important;
+}
+
+.allcast td.allcast-bgff9900 { 
+  background-color: #ff9900;
+}
+
+.allcast td.allcast-bgffff00 { 
+  background-color: #ffff00;
+}
+
+.allcast-bgffff00 { 
+  background-color: #ffff00;
+}
+
+.allcast td.allcast-bgffff99 { 
+  background-color: #ffff99;
+}
+
+.allcast span.allcast-bgffcc99 { 
+  background-color: #ffcc99;
+}
+
+.allcast-bgffcc00 { 
+  background-color: #ffcc00;
+}
+
+.allcast-bgff00ff { 
+  background-color: #ff00ff;
+}
+
+.allcast-bgccff33 { 
+  background-color: #ccff33;
+}
+
+.allcast-bgff4500 { 
+  background-color: #ff4500;
+}
+
+.allcast-bgcccc00 { 
+  background-color: #cccc00;
+}
+
+.allcast-bgb0e0e6 { 
+  background-color: #b0e0e6;
+}
+
+.allcast-bg-red { 
+  background-color: #ff0033; 
+}
+
+.allcast-bg-green { 
+  background-color: #00cc00; 
+}
+
+.allcast-bg-orange { 
+  background-color: #ffcc66; 
+}
+
+.allcast-bgff9933 { 
+  background-color: #ff9933; 
+}
+
+.allcast-bgffff99 { 
+  background-color: #ffff99; 
+}
+
+.allcast-bgffcc99 { 
+  background-color: #ffcc99; 
+}
+
+
+
+
+/*!ファンレタ－の宛先*/
+
+h2.ofiice {
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
+
+table.office { 
+  width: 960px; 
+  color: #555555; 
+}
+
+table.office td { vertical-align: middle; }
+
+
+/*!天才てれびくん関連商品グッズ*/
+
+h5.goods {
+  font-size: 0.75rem;
+}
+
+
+/*!天てれクイズ*/
+
+div.tv-screen {
+  border: #555555 20px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+h2.quiz-h2 {
+  font-size: 22px;
+}
+
+div.controller {
+  background-color: #555555;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px 15px;
+
+}
+
+div.controller .cnt-blue {
+  background-color: #d5eaff;
+  border: #2b95ff 10px solid;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: 100%; 
+}
+
+div.controller .cnt-blue input {
+  background-color: #d5eaff;
+  display: block;
+  width: 100%; 
+  color: #555555;
+  text-align: center;
+}
+
+div.controller .cnt-blue input:hover {
+  background-color: #2b95ff;
+  display: block;
+  width: 100%; 
+  color: #ffffff;
+}
+
+div.controller .cnt-red {
+  background-color: #ffd5d5;
+  border: #ff2b2b 10px solid;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: 100%; 
+}
+
+div.controller .cnt-red input {
+  background-color: #ffd5d5;
+  display: block;
+  width: 100%; 
+  color: #555555;
+  text-align: center;
+}
+
+div.controller .cnt-red input:hover {
+  background-color: #ff2b2b;
+  display: block;
+  width: 100%; 
+  color: #ffffff;
+}
+
+div.controller .cnt-green {
+  background-color: #d5ffd5;
+  border: #2bff2b 10px solid;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: 100%; 
+}
+
+div.controller .cnt-green input {
+  background-color: #d5ffd5;
+  display: block;
+  width: 100%; 
+  color: #555555;
+  text-align: center;
+}
+
+div.controller .cnt-green input:hover {
+  background-color: #2bff2b;
+  display: block;
+  width: 100%; 
+  color: #ffffff;
+}
+
+div.controller .cnt-yellow {
+  background-color: #ffffd5;
+  border: #ffff2b 10px solid;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: 100%; 
+}
+
+div.controller .cnt-yellow input {
+  background-color: #ffffd5;
+  display: block;
+  width: 100%; 
+  color: #555555;
+  text-align: center;
+}
+
+div.controller .cnt-yellow input:hover {
+  background-color: #ffff2b;
+  display: block;
+  width: 100%; 
+  color: #ff8c00;
+}
+
+
+/*!てれび戦士名漢字変換ツール*/
+
+h3.name-conversion { 
+  border-bottom: #555555 1px solid;
+  font-size: 20px;
+}
+
+
+/*!天てれリンク放送局*/
+
+h3.radio { 
+  border-bottom: #555555 1px solid;
+  border-radius: 10px; 
+  font-size: 20px;
+  padding: 2px 0px 1px 10px;
+}
+
+.niconico-bg {
+  background-color: #e8e8e8;
+}
+
+.twicas-bg {
+  background-color: #3381ff;
+}
+
+.showroom-bg {
+  background-color: #263238;
+}
+
+.youtube-bg {
+  background-color: #ff2b2b;
+}
+
+.linelive-bg {
+  background-color: #00ff7f;
+}
+
+.instalive-bg {
+  background-color: #ff00ff;
+}
+
+.niconico-community { 
+  width: 312px;
+  height: 190px;
+}
+
+/*!ロケ地めぐり記*/
+
+li.rokechi {
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+/*!天てれ論*/
+
+div.comment {
+  border: #555555 2px solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*!YouTube*/
+
+.youtube { 
+  font-size: 24px; 
+  margin: 20px 0;
+}
+
+
+/*!イラスト*/
+
+li.illust {
+  font-size: 20px;
+  padding: 20px;
+}
+
+h5.illust {
+  font-size: 1.25rem;
+}
+
+
+/*!更新履歴*/
+
+table.history { width: 900px;}
+
+
+/*!メールフォーム*/
+
+table.mail_form {
+  width: 64%;
+}
+
+table.mail_form th { 
+  width: 25%;
+  background-color: #ffffff;
+  text-align: right;
+  padding: 10px;
+  border: #555555 1px solid;
+}
+
+table.mail_form td { 
+  width: 75%;
+  background-color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  border: #555555 1px solid;
+}
+
+
+/*!運営スタッフ一覧*/
+
+table.staff { width: 900px;}
+
+
+/*!上部へ移動*/
+
+div.totop{
+  font-size: 24px;
+  font-weight: bold;
+
+position: fixed;
+bottom: 20px;
+right: 20px;
+padding-top: 5px;
+
+width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color:#555555;
+z-index: 9999;
+}
+
+.totop a{
+text-decoration: none;
+width: 50px;
+height: 50px;
+display: block; 
+position: relative;
+color:#ff8c00;
+
+}
+
+.totop a:hover {
+    color: #555555;
+    background-color:#ff8c00;
+    width: 50px;
+height: 50px;
+display: block; 
+border-radius: 50px;
+position: relative;
+bottom: 5px;
+right: 0;
+padding-top: 5px;
+}
+
+
+
+@media (max-width: 1200px) {
+
+  /*!共通*/
+
+.nav-item .tl { 
+  font-size: 10px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+  /*!共通*/
+
+  body {
+    padding-top: 56px;
+  }
+  
+  /*!トップページ*/
+
+  h3.tvslist { 
+    font-size: 24px;
+  }
+
+  div.tvs { 
+    font-size: 24px; 
+  }
+  
+  div.tvs li.tvsb { 
+    width: 47.5%; 
+    height: 50px; 
+    line-height: 50px; 
+  }
+    
+    div.tvs li.tvsg { 
+    width: 47.5%; 
+    height: 50px; 
+    line-height: 50px; 
+  }
+    
+    div.tvs li.tvsb a { 
+    width: 100%; 
+    height: 100%; 
+  }
+    div.tvs li.tvsb a:hover { 
+      width: 100%; 
+      height: 100%; 
+    }
+    
+    div.tvs li.tvsg a { 
+    width: 100%; 
+    height: 100%; }
+    div.tvs li.tvsg a:hover { 
+      width: 100%; 
+      height: 100%; 
+    }
+    h3.news { 
+      font-size: 24px;; 
+}
+
+
+/*!天てれ資料室*/
+
+li.ttkdata { 
+  font-size: 14px!important;
+  width: 49% !important; }
+
+
+/*!天てれアニメ*/
+
+li.ttk-anime { 
+  font-size: 14px!important;
+  width: 49% !important; }
+  
+  }
+
+@media (max-width: 768px) {
+
+/*!トップページ*/
+
+div.tvs li.tvsb { 
+      width: 97%; 
+      height: 100%; 
+    }
+      
+div.tvs li.tvsg { 
+      width: 97%; 
+      height: 100%; 
+    }
+
+.search {padding: 10px 0 0 0;}
+
+
+/*!天てれ資料室*/
+
+li.ttkdata { width: 100% !important; }
+
+
+/*!天てれアニメ*/
+
+li.ttk-anime { width: 100% !important; }
+
+
+}
+
+
+@media (max-width: 576px) {
+
+.sp-small { font-size: 60%;}
+.sp-w130 { width: 130px;}
+
+
+/*!天てれリンク放送局*/
+
+.niconico-community { 
+  width: 280px;
+  height: 210px;
+}
+
+
+}

@@ -1,0 +1,246 @@
+﻿/*-------------------------------------------------------------------*/
+/*--パソコン向けスタイル---------------------------------------------*/
+/*-------------------------------------------------------------------*/
+@media screen and (min-width: 768.1px){
+body .base{
+
+	background:url("https://www.nhk.or.jp/bitworld/game/img/bg_game.png") center center;
+//	background:url("http://www.nhk.or.jp/bitworld/jscss/img/mainbg.gif") center center;
+	background-size:180px ;
+}
+
+//div.base{border:1px solid #000;}
+div.base h1.main_logo{
+	background: url(logo.png) center center no-repeat;
+	background-size:auto 180px;
+	margin:0 auto;
+	text-indent:-9999px;
+	width:580px;
+	height:180px;
+}
+ul.gamelist{
+	text-align:center;
+	margin:0 auto;
+	padding:5px 0;
+}
+ul.gamelist li{
+	background:#000;
+	margin:3px;
+	border-radius:10px;
+	width:215px;
+	display:inline-block;
+	transition-duration:0.1s;
+}
+ul.gamelist li{
+	border:10px solid rgb(0,160,233);
+}
+
+ul.gamelist li:nth-child(8n+2),
+ul.gamelist li:nth-child(8n+4),
+ul.gamelist li:nth-child(8n+5),
+ul.gamelist li:nth-child(8n+7){
+	border:10px solid rgb(241,136,182);
+}
+
+
+ul.gamelist li:hover{
+	-webkit-box-shadow: 0px 3px 1px #000;
+	   -moz-box-shadow: 0px 3px 1px #000;
+	        box-shadow: 0px 3px 1px #000;
+}
+ul.gamelist li p{
+	font-size:15px;
+	line-height:120%;
+	padding:3px 0;
+	background:#fff;
+	height:40px;
+	width :215px;
+	vertical-align:middle;
+	display:table-cell;
+}
+ul.gamelist li.get p{background:rgb(240,250,210);}
+ul.gamelist li a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+}
+ul.gamelist li.minicon img{
+	background:url(game_bana.png) no-repeat;
+	margin:10px 0;
+	width :200px;
+	height:65px;
+	display:inline-block;
+	vertical-align:top;
+	border-radius:4px;
+}
+ul.gamelist li.iconsin img{
+	background:url(game_bana2.png) no-repeat;
+	margin:5px 0;
+	width :200px;
+	height:126px;
+	display:inline-block;
+	vertical-align:top;
+}
+ul.gamelist li.iconsin img.glid99{
+	background:url(http://www.geocities.jp/tvkun_fans/bit_games/note.png) no-repeat;
+	background-size:auto 100%;
+	margin:5px 0;
+	width :200px;
+	height:115px;
+	display:inline-block;
+	vertical-align:top;
+}
+}
+/*-------------------------------------------------------------------*/
+/*--スマートフォン向けスタイル---------------------------------------*/
+/*-------------------------------------------------------------------*/
+@media screen and (max-width:768px){
+body{
+	background:url("https://www.nhk.or.jp/bitworld/game/img/bg_game.png") center center;
+//	background:url("http://www.nhk.or.jp/bitworld/jscss/img/mainbg.gif") center center;
+	background-size:20vw;
+}
+div.base h1.main_logo{
+	background: url(logo.png) center center no-repeat;
+	background-size:auto 100%;
+	margin:0 auto;
+	text-indent:-9999px;
+	width:100%;
+	height:25vw;
+}
+
+ul.gamelist{
+	text-align:center;
+	margin:1vw auto;
+	padding:0;
+}
+ul.gamelist li{
+	text-align:center;
+	margin:0.8vw 0.8vw;
+	padding:1vw 0 0 0;
+	background:#000;
+	border-radius:2vw;
+	width :43vw;
+	display:inline-block;
+	vertical-align:bottom;
+	-webkit-box-shadow: 0px 3px 1px #000;
+	   -moz-box-shadow: 0px 3px 1px #000;
+	        box-shadow: 0px 3px 1px #000;
+}
+
+ul.gamelist li{
+	border:2vw solid rgb(0,160,233);
+}
+
+ul.gamelist li:nth-child(4n+2),
+ul.gamelist li:nth-child(4n+3) {
+	border:2vw solid rgb(241,136,182);
+}
+
+
+
+ul.gamelist li p{
+	font-size:2.777vw;
+	line-height:120%;
+	padding:3px 0;
+	background:#fff;
+	border-radius:4px;
+	height:8vw;
+	width :100vw;
+	vertical-align:middle;
+	display:table-cell;
+}
+ul.gamelist li.get p{background:rgb(240,250,210);}
+ul.gamelist li a{
+	font-size:2.555vw;
+	color:#000;
+	text-decoration:none;
+	display:block;
+}
+ul.gamelist li.minicon img{
+	background:url(game_bana.png) no-repeat;
+	margin:5px 0;
+	width :40vw;
+	height:13vw;
+	display:inline-block;
+	vertical-align:top;
+	border-radius:1vw;
+}
+ul.gamelist li.iconsin img{
+	background:url(game_bana2.png) no-repeat;
+	margin:5px 0;
+	width :40vw;
+	height:23vw;
+	display:inline-block;
+	vertical-align:top;
+}
+
+}
+/*=================================================================*/
+/*==ゲームバナー・共通=============================================*/
+/*=================================================================*/
+ul.gamelist li.minicon img.glid01{background-position:-000px -000px;}
+ul.gamelist li.minicon img.glid02{background-position:-200px -000px;}
+ul.gamelist li.minicon img.glid03{background-position:-400px -000px;}
+ul.gamelist li.minicon img.glid04{background-position:-600px -000px;}
+
+ul.gamelist li.minicon img.glid05{background-position:-000px -065px;}
+ul.gamelist li.minicon img.glid06{background-position:-200px -065px;}
+ul.gamelist li.minicon img.glid07{background-position:-400px -065px;}
+ul.gamelist li.minicon img.glid08{background-position:-600px -065px;}
+
+ul.gamelist li.minicon img.glid09{background-position:-000px -130px;}
+ul.gamelist li.minicon img.glid10{background-position:-200px -130px;}
+ul.gamelist li.minicon img.glid11{background-position:-400px -130px;}
+ul.gamelist li.minicon img.glid12{background-position:-600px -130px;}
+
+ul.gamelist li.minicon img.glid13{background-position:-000px -195px;}
+ul.gamelist li.minicon img.glid14{background-position:-200px -195px;}
+ul.gamelist li.minicon img.glid15{background-position:-400px -195px;}
+ul.gamelist li.minicon img.glid16{background-position:-600px -195px;}
+
+ul.gamelist li.minicon img.glid17{background-position:-000px -260px;}
+ul.gamelist li.minicon img.glid18{background-position:-200px -260px;}
+ul.gamelist li.minicon img.glid19{background-position:-400px -260px;}
+
+/*-----------------------------------------------------------------*/
+/*-以降スマホ対応ゲーム--------------------------------------------*/
+/*-----------------------------------------------------------------*/
+ul.gamelist li.minicon img.glid20{background-position:100.000% 066.666%;background-size:400% 700%;}
+
+ul.gamelist li.minicon img.glid21{background-position:000.000% 083.333%;background-size:400% 700%;}
+ul.gamelist li.minicon img.glid22{background-position:033.333% 083.333%;background-size:400% 700%;}
+ul.gamelist li.minicon img.glid23{background-position:066.666% 083.333%;background-size:400% 700%;}
+ul.gamelist li.minicon img.glid24{background-position:100.000% 083.333%;background-size:400% 700%;}
+
+ul.gamelist li.minicon img.glid25{background-position:000.000% 100.000%;background-size:400% 700%;}
+ul.gamelist li.minicon img.glid26{background-position:033.333% 100.000%;background-size:400% 700%;}
+ul.gamelist li.minicon img.glid27{background-position:066.666% 100.000%;background-size:400% 700%;}
+/*-ビットキャッスル以降--------------------------------------------*/
+ul.gamelist li.iconsin img.glid28{background-position:000.000% 000.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid29{background-position:033.333% 000.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid30{background-position:066.666% 000.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid31{background-position:100.000% 000.000%;background-size:400% 500%;}
+
+ul.gamelist li.iconsin img.glid32{background-position:000.000% 025.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid33{background-position:033.333% 025.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid34{background-position:066.666% 025.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid35{background-position:100.000% 025.000%;background-size:400% 500%;}
+
+ul.gamelist li.iconsin img.glid36{background-position:000.000% 050.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid37{background-position:033.333% 050.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid38{background-position:066.666% 050.000%;background-size:400% 500%;}
+ul.gamelist li.iconsin img.glid39{background-position:100.000% 050.000%;background-size:400% 500%;}
+
+
+/*-ロボコ以降以降--------------------------------------------*/
+
+ul.gamelist li.iconsin img.glid40{background:url(https://www.nhk.or.jp/bitworld/game/m012_sumo/gl_icon.jpg) center center /100%;}
+ul.gamelist li.iconsin img.glid41{background:url(https://www.nhk.or.jp/bitworld/game/m013_tug/gl_icon.jpg) center center /100%;}
+ul.gamelist li.iconsin img.glid42{background:url(https://www.nhk.or.jp/bitworld/game/m014-016/daruma/gl_icon.jpg) center center /100%;}
+ul.gamelist li.iconsin img.glid43{background:url(https://www.nhk.or.jp/bitworld/game/m014-016/steak/gl_icon.jpg) center center /100%;}
+ul.gamelist li.iconsin img.glid44{background:url(https://www.nhk.or.jp/bitworld/game/m014-016/hechima/gl_icon.jpg) center center /100%;}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/

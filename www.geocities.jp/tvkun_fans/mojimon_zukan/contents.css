@@ -1,0 +1,495 @@
+﻿body{
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width: 768.1px){
+
+div.base h1.logo{
+	background:url(logo.png) no-repeat;
+	margin:0 auto;
+	width:580px;
+	height:170px;
+}
+div.base p.introduction{
+	font-family: 'Sawarabi Mincho';
+	font-size:18px;
+	line-height:130%;
+	text-align:center;
+//	background:rgba(0,0,0,0.2);
+	background:url(../images/bg2.jpg);
+	border-radius:5px;
+	padding:20px 0;
+	margin:20px auto;
+	width:720px;
+	-webkit-box-shadow:0 3px 2px #999;
+	   -moz-box-shadow:0 3px 2px #999;
+	        box-shadow:0 3px 2px #999;
+}
+div.base p.introduction span{
+	font-size:23px;
+	display:block;
+}
+h1.season{
+	font-size:28px;
+	font-family: 'Sawarabi Mincho';
+	line-height:110%;
+	text-align:center;
+	margin:0;
+	padding:25px 0;
+	background:url(../images/menu_frame.png) no-repeat center center;
+	background-size:auto 100%;
+}
+h1.season span{font-size:20px;line-height:110%;}
+
+div.previous h5{
+	font-size:20px;
+	text-align:center;
+	background:rgb(255,204,0);
+	padding:10px 0;
+}
+div.previous{
+	padding:0;
+	margin:0 auto 50px;
+	-webkit-box-shadow:0 3px 3px #999;
+	   -moz-box-shadow:0 3px 3px #999;
+	        box-shadow:0 3px 3px #999;
+	background:rgb(232,232,232);
+	width:850px;
+}
+div.moji_list ul{
+	list-style-type:none;
+	margin:0 auto;
+	padding:0 0 20px 0;
+	width:905px;
+}
+div.moji_list ul li{
+	font-family: 'Sawarabi Mincho';
+	font-weight:bold;
+	text-align:center;
+	background-size:200% 100%;
+	padding:5px;
+//	background:url(../images/bg.jpg);
+	margin:4px 5px;
+//	width:165px;
+	width:16.55%;
+	display:inline-block;
+	vertical-align:top;
+	cursor:pointer;
+	transition-duration:0.3s;
+	border-radius:10px;
+}
+//div.moji_list ul li:hover{background:rgba(0,0,0,0.2);}
+div.moji_list ul li:hover{
+	background:url(../images/bg2.jpg);
+	-webkit-box-shadow:0 3px 3px #999;
+	   -moz-box-shadow:0 3px 3px #999;
+	        box-shadow:0 3px 3px #999;
+}
+div.moji_list ul li p{
+	background:#fff;
+	font-size:16px;
+	line-height:120%;
+	margin:5px 10px;
+	padding:5px 0;
+	-webkit-box-shadow:2px 2px 1px #999;
+	   -moz-box-shadow:2px 2px 1px #999;
+	        box-shadow:2px 2px 1px #999;
+}
+div.moji_list ul li img{
+	margin:2px auto;
+	border-radius:5px;
+	width:160px;
+	height:175px;
+	display:block;
+}
+div.base p.splink a{
+	display:none;
+}
+
+/*---------------------------------------------*/
+/*--モーダルウィンドウ-------------------------*/
+/*---------------------------------------------*/
+div.base div.mojimon_data div.mojimon ul li{
+	margin:5px;
+	padding:10px;
+	background:url(../images/bg2.jpg);
+	border-radius:5px;
+	width:650px;
+	height:385px;
+	position:fixed;
+	display:none;
+	z-index:9999999;
+	-webkit-box-shadow:5px 5px 5px #000,-5px -5px 10px #000,5px -5px 10px #000,-5px 5px 10px #000;
+	   -moz-box-shadow:5px 5px 5px #000,-5px -5px 10px #000,5px -5px 10px #000,-5px 5px 10px #000;
+	        box-shadow:5px 5px 5px #000,-5px -5px 10px #000,5px -5px 10px #000,-5px 5px 10px #000;
+}
+div.base div.mojimon_data div.mojimon ul li nav{
+	margin:0 10px 0 10px;
+	width:200px;
+	height:218px;
+//	display:inline-block;
+//	vertical-align:top;
+	float: left;
+}
+div.base div.mojimon_data div.mojimon ul li nav img{
+	width:200px;
+	height:218px;
+}
+div.base div.mojimon_data div.mojimon ul li nav h3{
+	font-size:18px;
+	line-height:120%;
+	text-align:center;
+	margin:0;
+}
+div.mojimon_data div.mojimon ul li div.detail,
+div.mojimon_data div.mojimon ul li div.data{
+	font-size:16px;
+	line-height:120%;
+	text-align:center;
+	margin:0;
+	padding:0;
+	width:420px;
+	display:inline-block;
+	vertical-align:top;
+}
+div.mojimon_data div.mojimon ul li div.detail h1{
+	font-size:38px;
+	font-family: 'Sawarabi Mincho';
+	line-height:130%;
+	background:url(../images/lines.png) center bottom no-repeat /100%;
+	margin:5px 0;
+}
+
+div.mojimon_data div.mojimon ul li div.data h2,
+div.mojimon_data div.mojimon ul li div.data h5{
+	font-size:21px;
+	font-family: 'Sawarabi Mincho';
+	line-height:120%;
+	font-weight:bold;
+	text-align:center;
+	background:rgba(255,255,255,0.8);
+	margin:5px 30px;
+	padding:5px;
+	border-left:#808080 solid 2px;border-right:#808080 solid 2px;
+}
+div.mojimon_data div.mojimon ul li div.data h5{
+	font-size:16px;
+	line-height:120%;
+}
+div.mojimon_data div.mojimon ul li div.data p{
+	font-size:18px;
+	line-height:120%;
+	text-align:justify;
+	background:rgba(255,255,255,1);
+	padding:5px;
+	margin:5px 0;
+	-webkit-box-shadow:0 1px 3px #999;
+	   -moz-box-shadow:0 1px 3px #999;
+	        box-shadow:0 1px 3px #000;
+}
+div.mojimon_data div.mojimon ul li a{
+	font-size:15px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	background:rgb(255,204,0);
+	border:1px solid Yellow;
+	padding:5px;
+	margin:10px 15px;
+	display:block;
+	transition-duration:0.2s;
+}
+div.mojimon_data div.mojimon ul li a:hover{
+	-webkit-box-shadow:2px 2px 1px #999;
+	   -moz-box-shadow:2px 2px 1px #999;
+	        box-shadow:2px 2px 1px #999;
+}
+div.mojimon_data div.mojimon ul li span.clause{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+	margin-top:10px;
+	color:#fff;
+	background:rgba(0,0,0,0.5);
+	border:1px solid #000;
+	border-radius:3px;
+	cursor:pointer;
+	transition-duration:0.3s;
+	display:block;
+}
+div.mojimon_data div.mojimon ul li span.clause:hover{
+	background:rgba(0,0,0,1);
+}
+div.modal-overlay{
+	background-color:rgba(0,0,0,0.75);
+	z-index:999998;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+}
+
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width: 768px){
+div.base h1.logo{
+	background:url(logo.png) no-repeat center center;
+	background-size:100% auto;
+	margin:0 auto;
+	width:90%;
+	height:30vw;
+}
+div.base p.introduction{
+	font-size:4vw;
+	font-family: 'Sawarabi Mincho';
+	line-height:130%;
+	text-align:center;
+	background:url(../images/bg2.jpg);
+	border-radius:1.5vw;
+	padding:4.5vw 2.8vw;
+	margin:2vw 3.5vw 5vw 3.5vw;
+	-webkit-box-shadow:0 1vw 1vw #999;
+	   -moz-box-shadow:0 1vw 1vw #999;
+	        box-shadow:0 1vw 1vw #999;
+}
+div.base p.introduction span{
+	font-size:5.5vw;
+	line-height:130%;
+	display:block;
+}
+div.mojimon_data{
+//	background:url(http://www.geocities.jp/tvkun_fans/mojimon_zukan/spbg.jpg) center center no-repeat;
+//	background-size:100% 100%;
+	background:rgba(255,255,255,0.8);
+	border-left:1.5vw solid rgb(191,186,166);
+	border-right:1.5vw solid rgb(191,186,166);
+	margin:1vw auto;
+	padding:1vw 2vw;
+	width:87%;
+	height:90vw;
+}
+div.mojimon_data div.mojimon{
+	width:100%;
+	height:89.5vw;
+	overflow:hidden;
+	position: relative;
+	padding:0.5vw 0;
+}
+div.mojimon_data div.mojimon ul{
+	height:89.5vw;
+	margin:0;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+}
+div.mojimon_data div.mojimon ul li{
+	height:89.5vw;
+	margin:0;
+	padding:0;
+	float:left;
+	display:inline;
+	overflow:hidden;
+	position:relative;
+}
+div.mojimon_data div.mojimon ul li nav{
+	width:39vw;
+	display:inline-block;
+}
+div.mojimon_data div.mojimon ul li nav img{
+	width:40vw;
+	height:44.55vw;
+}
+div.mojimon_data div.mojimon ul li nav h3{
+	font-size:4vw;
+	line-height:100%;
+	text-align:center;
+	margin:0;
+}
+div.mojimon_data div.mojimon ul li div.detail{
+	font-size:4vw;
+	line-height:120%;
+	letter-spacing:-0.3vw;
+	background:url(../images/octopus_translucent.png) no-repeat center bottom /80%;
+	width:47.888vw;
+	height:48vw;
+	display:inline-block;
+	vertical-align:top;
+}
+div.mojimon_data div.mojimon ul li div.detail h1{
+	font-size:5.555vw;
+	font-family: 'Sawarabi Mincho';
+	letter-spacing:-0.3vw;
+	text-indent:-8vw;
+	text-align:center;
+	line-height:110%;
+	background:url(../images/lines.png) center bottom no-repeat /100%;
+	margin:2vw 0.5vw 1vw ;
+}
+div.mojimon_data div.mojimon ul li div.data{
+	font-size:3.777vw;
+	line-height:95%;
+	letter-spacing:-0.2vw;
+}
+div.mojimon_data div.mojimon ul li div.data p{
+	font-size:4.444vw;
+	line-height:115%;
+	margin:0 0 1vw 0;
+}
+div.mojimon_data div.mojimon ul li div.data h2,
+div.mojimon_data div.mojimon ul li div.data h5{
+	font-size:4.5vw;
+	font-family: 'Sawarabi Mincho';
+	line-height:120%;
+	letter-spacing:-0.3vw;
+	font-weight:bold;
+	text-align:center;
+	background:rgba(255,255,255,0.8);
+	margin:1vw 0.2vw;
+	padding:5px;
+	border-left:#808080 solid 0.8vw;border-right:#808080 solid 0.8vw;
+}
+div.mojimon_data div.mojimon ul li div.data h5{
+	font-size:4vw;
+	line-height:120%;
+}
+div.mojimon_data div.mojimon ul li a{
+	display:none;
+}
+div.base p.splink a{
+	font-size:4.5vw;
+	line-height:120%;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+	background:rgb(255,204,0);
+	border:0.5vw solid orange;
+	padding:2vw 0;
+	margin:2vw 5vw;
+	display:block;
+	-webkit-box-shadow:0 0.5vw 1vw #999;
+	   -moz-box-shadow:0 0.5vw 1vw #999;
+	        box-shadow:0 0.5vw 1vw #999;
+}
+
+/********************/
+div.moji_list ul{
+	padding:0;
+	margin:2vw auto 5vw;
+	width:95%;
+}
+h1.season{
+	font-size:7vw;
+	font-family: 'Sawarabi Mincho';
+	text-align:center;
+	margin:0;
+	padding:4vw 0;
+	background:url(../images/menu_frame.png) no-repeat center center;
+	background-size:auto 100%;
+}
+h5{
+	font-size:4vw;
+	text-align:center;
+	background:rgb(255,204,0);
+	margin:20vw auto 3vw auto;
+	padding:3vw;
+	width:90vw;
+}
+div.moji_list ul li{
+	font-size:4vw;
+	font-family: 'Sawarabi Mincho';
+	text-align:center;
+	line-height:120%;
+	font-weight:bold;
+	background:#fff;
+	margin:0.6vw 0.6vw;
+	padding:3.5vw 0;
+	border-radius:0.5vw;
+	display:inline-block;
+	width:32.0%;
+	-webkit-box-shadow:0 0.5vw 0.8vw #999;
+	   -moz-box-shadow:0 0.5vw 0.8vw #999;
+	        box-shadow:0 0.5vw 0.8vw #999;
+}
+div.moji_list ul li p{
+	padding:0;
+	margin:0;
+}
+div.moji_list ul li img{display:none;}
+
+}
+/*------------------------------------*/
+/*--もじもんビジュアル----------------*/
+/*------------------------------------*/
+div.moji_list ul li img.img01,div.mojimon ul li#moji_01 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon001.png) no-repeat center center /100%;}
+div.moji_list ul li img.img02,div.mojimon ul li#moji_02 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon002.png) no-repeat center center /100%;}
+div.moji_list ul li img.img03,div.mojimon ul li#moji_03 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon003.png) no-repeat center center /100%;}
+div.moji_list ul li img.img04,div.mojimon ul li#moji_04 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon004.png) no-repeat center center /100%;}
+div.moji_list ul li img.img05,div.mojimon ul li#moji_05 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon005.png) no-repeat center center /100%;}
+div.moji_list ul li img.img06,div.mojimon ul li#moji_06 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon006.png) no-repeat center center /100%;}
+div.moji_list ul li img.img07,div.mojimon ul li#moji_07 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon007.png) no-repeat center center /100%;}
+div.moji_list ul li img.img08,div.mojimon ul li#moji_08 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon008.png) no-repeat center center /100%;}
+div.moji_list ul li img.img09,div.mojimon ul li#moji_09 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon009.png) no-repeat center center /100%;}
+
+div.moji_list ul li img.img10,div.mojimon ul li#moji_10 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon010.png) no-repeat center center /100%;}
+div.moji_list ul li img.img11,div.mojimon ul li#moji_11 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon011.png) no-repeat center center /100%;}
+div.moji_list ul li img.img12,div.mojimon ul li#moji_12 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon012.png) no-repeat center center /100%;}
+div.moji_list ul li img.img13,div.mojimon ul li#moji_13 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon013.png) no-repeat center center /100%;}
+div.moji_list ul li img.img14,div.mojimon ul li#moji_14 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon014.png) no-repeat center center /100%;}
+div.moji_list ul li img.img15,div.mojimon ul li#moji_15 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon015.png) no-repeat center center /100%;}
+div.moji_list ul li img.img16,div.mojimon ul li#moji_16 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon016.png) no-repeat center center /100%;}
+div.moji_list ul li img.img17,div.mojimon ul li#moji_17 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon017.png) no-repeat center center /100%;}
+div.moji_list ul li img.img18,div.mojimon ul li#moji_18 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon018.png) no-repeat center center /100%;}
+div.moji_list ul li img.img19,div.mojimon ul li#moji_19 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon019.png) no-repeat center center /100%;}
+
+div.moji_list ul li img.img20,div.mojimon ul li#moji_20 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon020.png) no-repeat center center /100%;}
+div.moji_list ul li img.img21,div.mojimon ul li#moji_21 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon021.png) no-repeat center center /100%;}
+div.moji_list ul li img.img22,div.mojimon ul li#moji_22 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon022.png) no-repeat center center /100%;}
+div.moji_list ul li img.img23,div.mojimon ul li#moji_23 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon023.png) no-repeat center center /100%;}
+div.moji_list ul li img.img24,div.mojimon ul li#moji_24 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon024.png) no-repeat center center /100%;}
+div.moji_list ul li img.img25,div.mojimon ul li#moji_25 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon025.png) no-repeat center center /100%;}
+div.moji_list ul li img.img26,div.mojimon ul li#moji_26 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon026.png) no-repeat center center /100%;}
+div.moji_list ul li img.img27,div.mojimon ul li#moji_27 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon027.png) no-repeat center center /100%;}
+div.moji_list ul li img.img28,div.mojimon ul li#moji_28 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon028.png) no-repeat center center /100%;}
+div.moji_list ul li img.img29,div.mojimon ul li#moji_29 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon029.png) no-repeat center center /100%;}
+
+div.moji_list ul li img.img30,div.mojimon ul li#moji_30 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon030.png) no-repeat center center /100%;}
+div.moji_list ul li img.img31,div.mojimon ul li#moji_31 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon031.png) no-repeat center center /100%;}
+div.moji_list ul li img.img32,div.mojimon ul li#moji_32 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon032.png) no-repeat center center /100%;}
+div.moji_list ul li img.img33,div.mojimon ul li#moji_33 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon033.png) no-repeat center center /100%;}
+div.moji_list ul li img.img34,div.mojimon ul li#moji_34 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon034.png) no-repeat center center /100%;}
+div.moji_list ul li img.img35,div.mojimon ul li#moji_35 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon035.png) no-repeat center center /100%;}
+div.moji_list ul li img.img36,div.mojimon ul li#moji_36 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon036.png) no-repeat center center /100%;}
+div.moji_list ul li img.img37,div.mojimon ul li#moji_37 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon037.png) no-repeat center center /100%;}
+div.moji_list ul li img.img38,div.mojimon ul li#moji_38 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon038.png) no-repeat center center /100%;}
+div.moji_list ul li img.img39,div.mojimon ul li#moji_39 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon039.png) no-repeat center center /100%;}
+
+div.moji_list ul li img.img40,div.mojimon ul li#moji_40 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon040.png) no-repeat center center /100%;}
+div.moji_list ul li img.img41,div.mojimon ul li#moji_41 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon041.png) no-repeat center center /100%;}
+div.moji_list ul li img.img42,div.mojimon ul li#moji_42 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon042.png) no-repeat center center /100%;}
+div.moji_list ul li img.img43,div.mojimon ul li#moji_43 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon043.png) no-repeat center center /100%;}
+div.moji_list ul li img.img44,div.mojimon ul li#moji_44 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon044.png) no-repeat center center /100%;}
+div.moji_list ul li img.img45,div.mojimon ul li#moji_45 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon045.png) no-repeat center center /100%;}
+div.moji_list ul li img.img46,div.mojimon ul li#moji_46 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon046.png) no-repeat center center /100%;}
+div.moji_list ul li img.img47,div.mojimon ul li#moji_47 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon047.png) no-repeat center center /100%;}
+div.moji_list ul li img.img48,div.mojimon ul li#moji_48 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon048.png) no-repeat center center /100%;}
+div.moji_list ul li img.img49,div.mojimon ul li#moji_49 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon049.png) no-repeat center center /100%;}
+
+div.moji_list ul li img.img50,div.mojimon ul li#moji_50 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon050.png) no-repeat center center /100%;}
+div.moji_list ul li img.img51,div.mojimon ul li#moji_51 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon051.png) no-repeat center center /100%;}
+div.moji_list ul li img.img52,div.mojimon ul li#moji_52 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon052.png) no-repeat center center /100%;}
+div.moji_list ul li img.img53,div.mojimon ul li#moji_53 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon053.png) no-repeat center center /100%;}
+div.moji_list ul li img.img54,div.mojimon ul li#moji_54 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon054.png) no-repeat center center /100%;}
+div.moji_list ul li img.img55,div.mojimon ul li#moji_55 img{background:url(http://www.nhk.or.jp/tvkun/mojimon/images/moji/icon055.png) no-repeat center center /100%;}
+
+/*------------------------------------*/

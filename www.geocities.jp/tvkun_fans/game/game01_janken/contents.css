@@ -1,0 +1,188 @@
+﻿/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓パソコン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (min-width:768.1px){
+h1.logo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:400px;
+	height:170px;
+}
+div.gamebox{
+	text-align:center;
+	padding:50px 0;
+	margin:0 auto;
+	width:680px;
+}
+div.gamebox div.charabox{
+	margin:0 20px;
+	width:180px;
+	display:inline-block;
+}
+div.gamebox div.charabox ul.chara{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:top;
+	width:180px;
+	height:180px;
+}
+div.gamebox div.charabox ul.chara li.box{
+	font-size:0;
+	width:180px;
+	height:180px;
+	display:none;
+}
+div.gamebox div.charabox select{
+	margin:10px 0;
+	font-size:20px;
+	border:1px solid #000;
+	border-radius:5px;
+}
+div.gamebox div.enemy{
+	margin:0 15px;
+	width:200px;
+	display:inline-block;
+}
+div.gamebox div.enemy div#battle{
+	margin:0;
+	display:inline-block;
+	vertical-align:top;
+	width:200px;
+	height:200px;
+}
+div.gamebox div.enemy div#battle img{
+	vertical-align:center;
+	height:180px;
+}
+div.gamebox div.enemy h1{
+	font-size:18px;
+	margin:0;
+	background:#fff;
+	border-radius:5px;
+}
+div.gamebox p#message{
+	font-size:18px;
+	background:#fff;
+	border-radius:5px;
+	padding:5px;
+	margin:10px;
+}
+div.gamebox ul.hand{
+	padding:0;
+	margin:0 auto;
+}
+div.gamebox ul.hand li{
+	text-align:center;
+	padding:5px;
+	margin:5px;
+	background:rgba(255,255,255,0.2);
+	border-radius:5px;
+	display:inline-block;
+	width:130px;
+	height:130px;
+	transition-duration:0.2s;
+}
+div.gamebox ul.hand li.hand00{border:5px solid #0000ff;}
+div.gamebox ul.hand li.hand01{border:5px solid #ff0000;}
+div.gamebox ul.hand li.hand02{border:5px solid #009600;}
+
+div.gamebox ul.hand li:hover{background:rgba(255,255,255,1);}
+div.gamebox ul.hand li img{height:130px;}
+}
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓スマートフォン向けスタイル〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+/*〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓*/
+@media screen and (max-width:768px){
+h1.logo{
+	background:url(logo.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	width:80%;
+	height:32vw;
+}
+div.gamebox{
+	text-align:center;
+	padding:5vw 0;
+	margin:0 auto;
+	width:99%;
+}
+div.gamebox div.charabox{
+	margin:0 5vw;
+	width:35vw;
+	display:inline-block;
+}
+div.gamebox div.charabox ul.chara{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:top;
+	width:35vw;
+	height:35vw;
+}
+div.gamebox div.charabox ul.chara li.box{
+	font-size:0;
+	width:35vw;
+	height:35vw;
+	display:none;
+}
+div.gamebox div.charabox select{
+	margin:2vw 0;
+	font-size:4vw;
+	border:0.2vw solid #000;
+	border-radius:1vw;
+}
+div.gamebox div.enemy{
+	margin:0 5vw;
+	width:35vw;
+	display:inline-block;
+}
+div.gamebox div.enemy div#battle{
+	margin:0;
+	display:inline-block;
+	vertical-align:top;
+	width:35vw;
+	height:35vw;
+}
+div.gamebox div.enemy div#battle img{
+	vertical-align:center;
+	height:35vw;
+}
+div.gamebox div.enemy h1{
+	font-size:4vw;
+	margin:0;
+	background:#fff;
+	border-radius:1.5vw;
+}
+div.gamebox p#message{
+	font-size:4vw;
+	background:#fff;
+	border-radius:5px;
+	padding:1.5vw;
+	margin:2.5vw 5vw;
+}
+div.gamebox ul.hand{
+	padding:0;
+	margin:0 auto;
+}
+div.gamebox ul.hand li{
+	text-align:center;
+	padding:1.5vw;
+	margin:1.5vw;
+	background:rgba(255,255,255,0.5);
+	border-radius:5px;
+	display:inline-block;
+	width:22vw;
+	height:22vw;
+}
+
+div.gamebox ul.hand li.hand00{border:1vw solid #0000ff;}
+div.gamebox ul.hand li.hand01{border:1vw solid #ff0000;}
+div.gamebox ul.hand li.hand02{border:1vw solid #009600;}
+
+div.gamebox ul.hand li img{height:22vw;}
+
+
+
+}

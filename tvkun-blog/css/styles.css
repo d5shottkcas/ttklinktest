@@ -1,0 +1,585 @@
+@Charset "UTF-8";
+
+/****************************************************
+* CSS 2.0                                           *
+****************************************************/
+
+
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+color: #000;
+font-size: 0.8em;
+font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", Osaka, sans-serif;
+line-height: 150%;
+background : #ddcc83;  /*--色変更--*/ 
+text-align: center;
+}
+
+ul, li {
+list-style-type: none;
+}
+
+img {
+border: none;
+}
+
+a {
+color: #e24800;
+text-decoration: underline;
+}
+
+a:hover {
+color: #ff0025;
+text-decoration: underline;
+}
+
+/********************* default parts ***********************/
+
+.l {
+margin-right: 5px;
+float: left;
+}
+
+.tCenter {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.tRight {
+margin-bottom: 10px;
+text-align: right;
+}
+
+.pagetop {
+margin-top: 20px;
+text-align: right;
+}
+
+.clear {
+clear: both;
+height: 1px;
+}
+
+blockquote {
+margin-left: 1em;
+margin-bottom: 1em;
+padding: 0.5em;
+background: #f2f2f2;
+border: 1px solid #cccccc;
+}
+
+/********************* layer ***********************/
+
+#body {
+width: 990px;
+margin: 0px auto;
+background: #ddcc83;  /*--色変更--*/ 
+}
+
+#header {
+position: relative;
+text-align: left;
+margin-bottom:0px; /*---マージン調整----*/
+}
+
+#contents {
+text-align: left;
+background: #fff;
+}
+
+#main {
+float: left;
+width: 750px;
+}
+
+#left {
+width: 210px;
+background: #ddcc83;  /*--色変更--*/ 
+float: left;
+margin-top:20px;  /*-----マージン追加----*/
+}
+
+#center {
+width: 490px;   /*----padding追加に合わせて調節----*/
+background: #e7e0c4;  /*--色変更--*/ 
+float: right;
+padding:30px 10px 0 10px;  /*-----余白追加----*/
+}
+
+#right {
+width: 210px;
+background: #ddcc83;  /*--色変更--*/ 
+float: right;
+margin-top:30px;  /*-----マージン追加----*/
+
+}
+
+#footer {
+background: #ddcc83;  /*--色変更--*/ 
+/*---
+border-top: solid 1px #989898; ボーダー削除
+---*/
+padding-bottom:10px;
+clear: both;
+text-align: left;
+}
+
+/********************* header ***********************/
+
+#header span {
+color: #ffffff;
+font-weight: bold;
+position: absolute;
+top: 98px;
+left: 14px;
+}
+
+/********************* footer ***********************/
+
+#footer p {
+color: #e24800;　  /*--色変更--*/ 
+font-size: 85%;
+line-height: 110%;
+margin-top: 10px;
+text-align: left;
+}
+
+#footer p img {
+margin: 0px 10px;
+}
+
+#footer p#footerLink {
+font-size: 85%;
+line-height: 110%;
+margin: 0px;
+text-align: left;
+}
+
+#footer p a {
+color: #e24800;　  /*--色変更--*/ 
+}
+
+#footer p a:hover {
+color: #ff0025;
+} 
+
+/********************* center ***********************/
+
+#center h1 {
+color: #e24800;   /*-----　色変更----*/
+font-size: 1.3em;
+line-height: 100%;
+margin-bottom: 15px;
+padding: 0.25em;
+border-bottom: 3px solid #bca445;
+}
+
+#center .entry h1 {
+padding-left: 10px;
+border-left: 7px solid #bca445;   /*-----　色変更----*/
+border-bottom: none;
+}
+
+#center h2 {
+color: #e24800;   /*-----　色変更----*/
+font-size: 1.3em;
+line-height: 100%;
+margin-bottom: 5px;
+padding: 0.25em 0.25em 0.25em 10px; 
+border-left: 7px solid #e24800;   /*-----　色変更----*/
+}
+
+#center h3 {
+font-size: 1.3em;
+line-height: 100%;
+margin-bottom: 15px;
+padding: 0.25em 0.25em 0.25em 10px;
+}
+
+#center h4 {
+font-size: 1.3em;
+line-height: 100%;
+margin-bottom: 15px;
+padding: 0.25em 0.25em 0.25em 10px;
+}
+
+#center h1 span.titleDate,#center h2 span.titleDate {
+font-size:0.8em;
+display: block;
+}
+
+#center p {
+color:#000;    /*----------色変更-------*/
+margin-bottom: 10px;
+}
+
+#center .entry {
+margin-bottom: 10px;
+}
+
+#center .entry p {
+margin-bottom: 1em;
+}
+
+#center .entry p.tRight a {
+color: #e24800;    /*---------色変更------*/
+font-weight: bold;
+}
+
+#center .entry p.tRight a:hover {
+color: #ff0025;
+}
+
+#center #more {
+clear: both;
+}
+
+#center hr{
+border: dashed 1px #e24800;   /*-----　色変更----*/
+margin-bottom: 15px;
+clear: both;
+}
+
+/********************* center (category) ***********************/
+
+#center p.topicpath {
+margin-bottom: 10px;
+padding: 5px 0px;
+}
+
+#center p.pageNav {
+margin-bottom: 10px;
+padding: 5px 0px;
+text-align: center;
+color: #666;
+}
+
+/********************* posted ***********************/
+
+#center p.posted {
+color: #e24800;  /*-----　色変更----*/
+padding: 0.4em 0px;
+border-top: 1px solid #bca445;  /*-----　色変更----*/
+clear: both;
+text-align: right;
+}
+
+#center p.posted a{
+color: #e24800;  /*-----　色変更----*/
+text-decoration: underline;
+}
+
+#center p.posted a:hover{
+color: #ff0025;
+text-decoration: underline;
+}
+
+#center p.posted span{
+color: #666;
+}
+#center p.posted span.socialbookmark{
+color:#ff0025;
+}
+
+/********************* comment trackback ***********************/
+
+#center div#trackbacks h2 {
+margin-bottom: 10px;
+}
+
+#center div#trackbacks h3 {
+padding: 0px;
+margin-bottom: 10px;
+border: none;
+}
+
+#center div#trackbacks h4 {
+margin-bottom: 10px;
+border: none;
+}
+
+#center div#trackbacks input {
+width: 400px;
+}
+
+#center div#trackbacks p {
+padding-left: 10px;
+}
+
+#center div#trackbacks p.trackbacks {
+padding-left: 10px;
+}
+
+#center div.cAdmin {
+margin-bottom:10px;
+padding:10px;
+background:#f8f8f8;
+}
+
+/********************* center(entry) ***********************/
+
+#center .entry dl {
+margin-bottom: 30px;
+margin-left: 10px;
+}
+
+#center .entry dl dt {
+margin-right: 10px;
+float: left;
+}
+
+#center .entry dl dt,
+#center .entry dl dd {
+margin-bottom: 10px;
+}
+
+/********************* left ***********************/
+
+/*-----大天ホームページへのリンク用スタイルを追加-----*/
+#left img.toplink{
+width:210px;
+height:75px;
+border:0;
+margin-bottom:15px;
+}
+
+/*-----大天ホームページへのリンク用スタイルを追加 ここまで-----*/
+
+
+#left h2 {
+font-size: 1.3em;
+margin-bottom: 3px;
+}
+
+#left p{
+margin-bottom: 10px;
+}
+
+#left hr {
+border: dashed 1px #A86B48;  /*----- 色変更------*/
+margin: 10px 0px 20px;
+}
+
+#left ul {
+line-height:140%;
+margin-bottom: 30px;
+}
+
+#left ul li {
+background: url(../images/li_img02.gif) no-repeat 6px 0.5em #ddcc83; /*----色変更----*/
+padding-left: 18px;
+margin-bottom:5px;
+list-style:none;
+}
+
+#left ul li a {
+color: #ff0025;  /*-----文字色変更-----*/
+}
+
+#left ul#categoryList{
+line-height: 170%;
+margin-bottom:30px;
+width: 210px;
+color:#fff;
+}
+
+#left ul#categoryList ul{
+margin-bottom:0px;
+
+}
+
+#left ul#categoryList li{
+margin-bottom:1px;
+padding: 3px 5px 3px 18px;
+background: url(../images/li_img01.gif) no-repeat 7px 0.7em #333333;
+}
+
+#left ul#categoryList li a {
+color: #fff;/*----色変更----*/
+text-decoration: none;
+}
+
+#left ul#categoryList li a:hover {
+color: #fdff00;
+text-decoration: underline;
+}
+
+#left a {
+color: #ff0025;
+text-decoration: underline;
+}
+
+#left a:hover {
+color: #ff0025;
+text-decoration: underline;
+}
+
+/********************* right *****************************/
+
+#right h2 {
+margin-bottom: 7px;
+}
+
+#right p {
+margin-bottom: 10px;
+}
+
+#right ul {
+width: 210px;
+margin-bottom: 30px;
+}
+
+#right ul li {
+margin-bottom: 10px;
+padding-left: 18px;
+background: url(../images/li_img02.gif) no-repeat 6px 0.5em #ddcc83;　　/*----　色変更----*/ 
+}
+
+#right ul li a {
+color: #ff0025;　　　/*----　色変更----*/ 
+}
+
+#right ul li a:hover {
+color: #ff0025;
+}
+
+#right input {
+margin-bottom: 30px;
+vertical-align: middle;
+}
+
+#right input#formSearchText {
+width: 158px;
+height: 18px;
+}
+
+/********************* Calendar **************************/
+
+#calendarList {
+font-size: 12px;
+width: 210px;
+margin-bottom: 13px;
+text-align: center;
+position: relative;
+}
+
+#calendarList div.left {
+width: 20px;
+position: absolute;
+top: 5px;
+left: 22px;
+}
+
+#calendarList div.center {
+font-weight: bold;
+padding-top: 5px;
+text-align: center;
+color: #000;  /*----色変更追加---*/
+}
+
+#calendarList div.right {
+width: 20px;
+position: absolute;
+top: 5px;
+right: 22px;
+}
+
+#calendarList a {
+color: #ff0025;  /*----色変更---*/
+text-decoration: none;
+}
+
+#calendarList a:hover {
+color: #ff0025;
+text-decoration: underline;
+}
+
+#calendar {
+clear: both;
+width: 210px;
+margin-bottom: 30px;
+}
+
+#calendar table {
+font-size: 11px;
+line-height: 140%;
+width: 210px;
+text-align: center;
+border-collapse: collapse;
+}
+
+#calendar caption {
+font-size: 11px;
+font-weight: bold;
+padding-bottom: 0.6em;
+}
+
+#calendar th {
+color: #000;  /*----色変更---*/
+font-weight: normal;
+}
+
+#calendar td {
+color: #000;  /*----色変更追加---*/
+padding: 0.2em;
+text-align: center;
+}
+
+#calendar .today {
+color: #fff;
+background: #ff0025;
+}
+
+#calendar .today a {
+color: #fff;
+}
+
+#calendar .today a:hover {
+color: #fff;
+}
+
+#calendar td a {
+color: #ff0025;  /*----色変更---*/
+text-decoration: underline;
+}
+
+/********************* search **************************/
+
+#center h2.searchList {
+padding-left: 0px;
+border: none;
+}
+
+#center .pageLink {
+text-align: center;
+margin:10px auto 20px;
+}
+
+#center .pageLink span.thisPage {
+background:#eeeeee;
+padding:4px 5px;
+font-weight:bold;
+}
+
+#center .pageLink a {
+padding:3px 5px;
+border:1px solid #3733d6;
+text-decoration:none;
+font-weight:normal;
+}
+
+#center .pageLink a:hover {
+background:#3733d6;
+color:#fff;
+}
+
+.nhksns li {
+     background-image: none ! important;
+     list-style-type: none ! important;
+     margin: 5px 5px 5px 0px ! important;
+     padding: 0px ! important;
+}

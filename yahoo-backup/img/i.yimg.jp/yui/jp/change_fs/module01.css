@@ -1,0 +1,31 @@
+/*文字サイズ変更モジュール2006.12.12*/
+
+<!--
+div#yjFsCtl span.yjFsCtl-ttl{
+	vertical-align:bottom;
+	font-weight:normal;
+	font-size:x-small;          /* WinIE5.x */
+	voice-family:"\"}\"";
+	voice-family:inherit;
+	font-size:small;            /* WinIE6.x (Standard), WinIE7 Beta2(Standard) */
+	font-size /**/:x-small;}    /* WinIE6.x (Quirks), WinIE7 Beta2(Quirks) */ 
+	html>body div#yjFsCtl span.yjFsCtl-ttl{
+		font-size:small;}       /* gecko, Safari1.x */
+	div#yjFsCtl span.yjFsCtl-ttl:lang(en) {
+		font-size:84%;}         /* MacIE5.x */
+div#yjFsCtl img{
+	height:24px;
+	vertical-align:bottom;}
+div#yjFsCtl span#yjfsS img{
+	margin-right:2px;
+	border:0px;
+	width:16px;}
+div#yjFsCtl span#yjfsM img{
+	margin-right:2px;
+	border:0px;
+	width:18px;}
+div#yjFsCtl span#yjfsL img{
+	margin-right:2px;
+	border:0px;
+	width:20px;}
+-->
